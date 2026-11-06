@@ -1,0 +1,74 @@
+[
+  {
+    "id": "first-steps",
+    "name": "First Steps",
+    "description": "Complete your first trip.",
+    "icon": "👣",
+    "xp": 20,
+    "rule": { "metric": "trips_completed", "op": ">=", "value": 1 }
+  },
+  {
+    "id": "summit-seeker",
+    "name": "Summit Seeker",
+    "description": "Complete 3 treks.",
+    "icon": "⛰️",
+    "xp": 50,
+    "rule": { "metric": "treks_completed", "op": ">=", "value": 3 }
+  },
+  {
+    "id": "budget-hero",
+    "name": "Budget Hero",
+    "description": "Finish a trip spending under ₹5,000 per person.",
+    "icon": "💰",
+    "xp": 30,
+    "rule": { "metric": "cheapest_trip_pp", "op": "<", "value": 5000 }
+  },
+  {
+    "id": "explorer",
+    "name": "Explorer",
+    "description": "Add a hidden place that the community verifies.",
+    "icon": "🧭",
+    "xp": 50,
+    "rule": { "metric": "contributions_verified", "op": ">=", "value": 1 }
+  },
+  {
+    "id": "thin-air",
+    "name": "Thin Air",
+    "description": "Complete a trip that goes above 4,000 m.",
+    "icon": "🏔️",
+    "xp": 40,
+    "rule": { "metric": "max_altitude_m", "op": ">=", "value": 4000 }
+  },
+  {
+    "id": "pass-crosser",
+    "name": "Pass Crosser",
+    "description": "Cross a high pass on foot.",
+    "icon": "🚩",
+    "xp": 40,
+    "rule": { "metric": "passes_crossed", "op": ">=", "value": 1 }
+  },
+  {
+    "id": "valley-hopper",
+    "name": "Valley Hopper",
+    "description": "Complete trips in 4 different districts.",
+    "icon": "🗺️",
+    "xp": 40,
+    "rule": { "metric": "districts_visited", "op": ">=", "value": 4 }
+  },
+  {
+    "id": "verified-trekker",
+    "name": "Verified Trekker",
+    "description": "Complete 3 GPS-verified trips.",
+    "icon": "📍",
+    "xp": 30,
+    "rule": { "metric": "verified_trips", "op": ">=", "value": 3 }
+  },
+  {
+    "id": "century",
+    "name": "Century",
+    "description": "Cover 100 km on foot on OFFGRID trips.",
+    "icon": "💯",
+    "xp": 50,
+    "rule": { "metric": "km_total", "op": ">=", "value": 100 }
+  }
+]

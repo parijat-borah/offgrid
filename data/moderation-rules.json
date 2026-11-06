@@ -1,0 +1,14 @@
+{
+  "version": "2026.10.1",
+  "duplicate_radius_m": 150,
+  "duplicate_min_similarity": 0.45,
+  "auto_duplicate_radius_m": 50,
+  "auto_duplicate_similarity": 0.8,
+  "base_vote_weight": 0.3,
+  "verify_score": 2.0,
+  "verify_min_upvotes": 3,
+  "flag_score": 0.6,
+  "approx_grid_deg": 0.02,
+  "submissions_per_day": 5,
+  "contribution_xp": 50
+}

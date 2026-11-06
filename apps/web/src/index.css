@@ -1,0 +1,157 @@
+@import "tailwindcss";
+
+/* Design tokens. Every colour used in the UI comes from here, so contrast is checked in one place. */
+@theme {
+  /* Self-hosted (precached for offline use). The system stack is the fallback while they load. */
+  --font-sans: "Inter Variable", system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", Arial, sans-serif;
+  --font-display: "Plus Jakarta Sans Variable", "Inter Variable", system-ui, sans-serif;
+
+  --shadow-card: 0 1px 2px rgb(23 33 43 / 0.04), 0 2px 8px rgb(23 33 43 / 0.05);
+  --shadow-lift: 0 4px 12px rgb(23 33 43 / 0.08), 0 12px 32px rgb(23 33 43 / 0.08);
+
+  --color-paper: #f5f6f2;
+  --color-surface: #ffffff;
+  --color-ink: #17212b;
+  --color-muted: #55606e; /* 6.3:1 on white */
+  --color-line: #dde2e7;
+
+  --color-pine-50: #ecf6f0;
+  --color-pine-100: #d3ebdc;
+  --color-pine-600: #1f7a52;
+  --color-pine-700: #17613f; /* 7.4:1 on white */
+  --color-pine-800: #124c32;
+  --color-pine-900: #0c3523;
+
+  --color-sun-50: #fdf1e8;
+  --color-sun-500: #b5530f; /* darkened from #d9661d so white text on it passes WCAG AA (≈5:1) */
+
+  --color-warn-50: #fff6e0;
+  --color-warn-200: #f5d48a;
+  --color-warn-700: #7a4f00;
+
+  --color-danger-50: #fdecec;
+  --color-danger-200: #f3b8b3;
+  --color-danger-700: #b42318;
+}
+
+html {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.015em;
+}
+
+/* Thin, quiet scrollbars for horizontal photo strips and the sidebar. */
+.scroll-thin {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-line) transparent;
+}
+
+body {
+  min-height: 100dvh;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-sun-500);
+  outline-offset: 2px;
+}
+
+dialog::backdrop {
+  background: rgb(23 33 43 / 0.55);
+}
+
+.skeleton {
+  background: linear-gradient(90deg, #e8ebee 0%, #f4f6f8 50%, #e8ebee 100%);
+  background-size: 200% 100%;
+  animation: shimmer 1.2s linear infinite;
+}
+
+@keyframes shimmer {
+  from {
+    background-position: 200% 0;
+  }
+  to {
+    background-position: -200% 0;
+  }
+}
+
+/* Wanderling mascot motion */
+.og-bob {
+  animation: og-bob 3.2s ease-in-out infinite;
+}
+.og-eyes {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: og-blink 5s infinite;
+}
+.og-pop {
+  animation: og-pop 0.9s cubic-bezier(0.2, 1.5, 0.4, 1) both;
+}
+.og-sparkle {
+  animation: og-sparkle 1.4s ease-out both;
+}
+
+@keyframes og-bob {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+@keyframes og-blink {
+  0%,
+  94%,
+  100% {
+    transform: scaleY(1);
+  }
+  97% {
+    transform: scaleY(0.1);
+  }
+}
+@keyframes og-pop {
+  0% {
+    transform: scale(0.3) rotate(-8deg);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.15) rotate(3deg);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1) rotate(0);
+  }
+}
+@keyframes og-sparkle {
+  0% {
+    transform: translateY(8px) scale(0.5);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-24px) scale(1);
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}

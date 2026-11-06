@@ -1,0 +1,12 @@
+{
+  "version": "2026.10.1",
+  "weights": { "vibe": 40, "budget": 20, "days": 15, "season": 15, "novelty": 10 },
+  "budget_tolerance_pct": 10,
+  "buffer_pct": 10,
+  "solo_stay_multiplier": 1.5,
+  "risky_season_score": 0.4,
+  "neutral_vibe_score": 0.5,
+  "high_altitude_note_m": 3500,
+  "fitness_km_per_day": { "1": 10, "2": 15, "3": 22 },
+  "ams": { "threshold_m": 3000, "max_gain_per_night_m": 500 }
+}

@@ -1,0 +1,44 @@
+{
+  "source": "Summarised from the Wilderness Medical Society altitude illness guidelines (2019 update) and Himachal Pradesh tourism safety advisories. This is not a substitute for medical advice.",
+  "altitude": {
+    "intro": "Altitude illness can affect anyone above about 2,500 m, however fit they are. It's preventable: go up slowly.",
+    "prevent": [
+      "Above 3,000 m, raise your sleeping altitude by no more than 500 m a night.",
+      "Take a rest day for every 1,000 m you gain, or every 3–4 days.",
+      "Climb high, sleep low: day hikes higher than camp help you adjust.",
+      "Drink 3–4 litres of water a day. Skip alcohol and sleeping pills for the first nights up high.",
+      "Acetazolamide (Diamox) can help prevent it, but only take it on a doctor's advice."
+    ],
+    "levels": [
+      {
+        "name": "Mild altitude sickness (AMS)",
+        "signs": "Headache plus at least one of: nausea, tiredness, dizziness, poor sleep.",
+        "action": "Don't go higher. Rest, drink water, take paracetamol. Descend if it isn't better in 24 hours."
+      },
+      {
+        "name": "Fluid on the lungs (HAPE)",
+        "signs": "Breathless even at rest, a cough (sometimes frothy or pink), blue lips, unusual tiredness.",
+        "action": "Emergency: descend at least 300–1,000 m now, with someone. Call 112. Give oxygen if you have it."
+      },
+      {
+        "name": "Fluid on the brain (HACE)",
+        "signs": "Confusion, unusual behaviour, can't walk in a straight line, extreme drowsiness.",
+        "action": "Emergency: descend immediately with help. Call 112. Never leave the person alone."
+      }
+    ],
+    "rule": "Never go higher with symptoms. Descend if they get worse. Most people recover quickly once they go down."
+  },
+  "tell_someone": [
+    "Share your itinerary: route, campsites and the date and time you expect to be back.",
+    "Agree a check-in time. If they don't hear from you by then, they call 112 and the local police.",
+    "Leave the names and phone numbers of your guide, operator or homestay.",
+    "Note where mobile signal ends (and which network works) on your route.",
+    "Carry a charged power bank, a whistle and a headlamp. Pair your OFFGRID beacon if you have one.",
+    "Register at the police post or forest check-post if there is one at the trailhead."
+  ],
+  "weather_rules": [
+    "In the hills, afternoon storms build fast. Start early and be off exposed ridges by early afternoon.",
+    "After heavy rain, give roads and river crossings a day to settle. Landslides often come after the rain stops.",
+    "In thunder, get off ridges and summits. Avoid lone trees and metal poles; crouch on your pack if caught in the open."
+  ]
+}

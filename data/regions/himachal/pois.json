@@ -1,0 +1,92 @@
+[
+  {
+    "id": "hptdc-bhagsu", "region_id": "himachal", "name": "HPTDC Hotel Bhagsu", "category": "stay",
+    "lat": 32.2426, "lon": 76.3237, "price_band": 2, "tags": ["women_safe", "family", "upi"], "hours": "24/7", "event_months": null,
+    "description": "Government-run hotel with a 24-hour staffed reception, near McLeodganj bus stand.",
+    "source": "curated", "note": "Women-friendly criteria: government-run, 24-hour staffed reception. Location approximate; confirm before travel."
+  },
+  {
+    "id": "hptdc-kunzam", "region_id": "himachal", "name": "HPTDC Hotel Kunzam", "category": "stay",
+    "lat": 32.2431, "lon": 77.1892, "price_band": 2, "tags": ["women_safe", "family", "upi"], "hours": "24/7", "event_months": null,
+    "description": "Government-run hotel on Manali Mall Road, close to the bus stand.",
+    "source": "curated", "note": "Women-friendly criteria: government-run, 24-hour staffed reception. Location approximate; confirm before travel."
+  },
+  {
+    "id": "hptdc-rohtang-manalsu", "region_id": "himachal", "name": "HPTDC Hotel Rohtang Manalsu", "category": "stay",
+    "lat": 32.2475, "lon": 77.181, "price_band": 2, "tags": ["women_safe", "family"], "hours": "24/7", "event_months": null,
+    "description": "Government-run hotel above Manali town, near Hadimba temple.",
+    "source": "curated", "note": "Women-friendly criteria: government-run, 24-hour staffed reception. Location approximate; confirm before travel."
+  },
+  {
+    "id": "hptdc-spiti-kaza", "region_id": "himachal", "name": "HPTDC Hotel Spiti", "category": "stay",
+    "lat": 32.227, "lon": 78.07, "price_band": 2, "tags": ["women_safe", "family"], "hours": "24/7", "event_months": null,
+    "description": "Government-run hotel in Kaza. Usually open in the summer season only.",
+    "source": "curated", "note": "Women-friendly criteria: government-run, 24-hour staffed reception. Seasonal; location approximate."
+  },
+  {
+    "id": "hptdc-kinner-kailash", "region_id": "himachal", "name": "HPTDC Hotel Kinner Kailash", "category": "stay",
+    "lat": 31.537, "lon": 78.256, "price_band": 2, "tags": ["women_safe", "family"], "hours": "24/7", "event_months": null,
+    "description": "Government-run hotel in Kalpa facing the Kinner Kailash range.",
+    "source": "curated", "note": "Women-friendly criteria: government-run, 24-hour staffed reception. Location approximate; confirm before travel."
+  },
+  {
+    "id": "hptdc-hatu-narkanda", "region_id": "himachal", "name": "HPTDC Hotel Hatu", "category": "stay",
+    "lat": 31.257, "lon": 77.459, "price_band": 2, "tags": ["women_safe", "family"], "hours": "24/7", "event_months": null,
+    "description": "Government-run hotel in Narkanda, a good base for Hatu Peak.",
+    "source": "curated", "note": "Women-friendly criteria: government-run, 24-hour staffed reception. Location approximate; confirm before travel."
+  },
+  {
+    "id": "hptdc-geetanjali-dalhousie", "region_id": "himachal", "name": "HPTDC Hotel Geetanjali", "category": "stay",
+    "lat": 32.5387, "lon": 75.971, "price_band": 2, "tags": ["women_safe", "family"], "hours": "24/7", "event_months": null,
+    "description": "Government-run heritage hotel in Dalhousie.",
+    "source": "curated", "note": "Women-friendly criteria: government-run, 24-hour staffed reception. Location approximate; confirm before travel."
+  },
+  {
+    "id": "event-kullu-dussehra", "region_id": "himachal", "name": "Kullu Dussehra", "category": "event",
+    "lat": 31.958, "lon": 77.1095, "price_band": 1, "tags": ["free", "family"], "hours": null, "event_months": [10],
+    "description": "A week-long festival at Dhalpur Maidan that begins on Vijayadashami, when hundreds of village deities are carried into Kullu.",
+    "source": "curated", "note": "Dates follow the lunar calendar; check the exact week locally."
+  },
+  {
+    "id": "event-mandi-shivratri", "region_id": "himachal", "name": "International Shivratri Fair, Mandi", "category": "event",
+    "lat": 31.708, "lon": 76.9318, "price_band": 1, "tags": ["free", "family"], "hours": null, "event_months": [2, 3],
+    "description": "A week-long fair around Mahashivratri, with processions of local deities and folk performances.",
+    "source": "curated", "note": "Dates follow the lunar calendar."
+  },
+  {
+    "id": "event-minjar-chamba", "region_id": "himachal", "name": "Minjar Mela, Chamba", "category": "event",
+    "lat": 32.5534, "lon": 76.1258, "price_band": 1, "tags": ["free", "family"], "hours": null, "event_months": [7, 8],
+    "description": "Chamba's harvest fair, which ends with a procession to the Ravi river.",
+    "source": "curated", "note": "Usually late July or early August."
+  },
+  {
+    "id": "event-lavi-rampur", "region_id": "himachal", "name": "Lavi Fair, Rampur Bushahr", "category": "event",
+    "lat": 31.449, "lon": 77.63, "price_band": 1, "tags": ["free", "family"], "hours": null, "event_months": [11],
+    "description": "An old trade fair where traders from Kinnaur, Lahaul and Spiti sell wool, dry fruit and horses.",
+    "source": "curated", "note": "Usually around 11–14 November."
+  },
+  {
+    "id": "event-losar-mcleodganj", "region_id": "himachal", "name": "Losar (Tibetan New Year), McLeodganj", "category": "event",
+    "lat": 32.2325, "lon": 76.324, "price_band": 1, "tags": ["free"], "hours": null, "event_months": [2, 3],
+    "description": "Tibetan New Year celebrations around the Tsuglagkhang temple complex.",
+    "source": "curated", "note": "Dates follow the Tibetan lunar calendar."
+  },
+  {
+    "id": "event-dhungri-mela", "region_id": "himachal", "name": "Hadimba Devi Fair (Dhungri Mela), Manali", "category": "event",
+    "lat": 32.2481, "lon": 77.1806, "price_band": 1, "tags": ["free", "family"], "hours": null, "event_months": [5],
+    "description": "A three-day fair in the deodar forest around Hadimba temple, marking the goddess's birthday.",
+    "source": "curated", "note": "Usually mid-May."
+  },
+  {
+    "id": "event-ladarcha-kaza", "region_id": "himachal", "name": "Ladarcha Fair, Kaza", "category": "event",
+    "lat": 32.2276, "lon": 78.071, "price_band": 1, "tags": ["free"], "hours": null, "event_months": [8],
+    "description": "Spiti's traditional trade fair, now a cultural festival with local music and crafts.",
+    "source": "curated", "note": "Usually in August."
+  },
+  {
+    "id": "event-phulaich-kalpa", "region_id": "himachal", "name": "Phulaich (Ukhyang) flower festival, Kinnaur", "category": "event",
+    "lat": 31.537, "lon": 78.256, "price_band": 1, "tags": ["free"], "hours": null, "event_months": [9, 10],
+    "description": "Villagers bring wild high-altitude flowers down from the meadows to honour the dead and the local deity.",
+    "source": "curated", "note": "Dates vary by village."
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "types": [
+    { "id": "summit-chaser", "name": "Summit Chaser", "icon": "🏔️", "pace": 3, "vibes": ["adventure", "snow", "camping"], "description": "You go for the pass, not the café. Early starts and big days are your thing." },
+    { "id": "slow-wanderer", "name": "Slow Wanderer", "icon": "🌿", "pace": 1, "vibes": ["chill", "villages", "culture"], "description": "Three nights in one village beats seven places in a week. You travel to feel a place." },
+    { "id": "foodie-nomad", "name": "Foodie Nomad", "icon": "🍜", "pace": 2, "vibes": ["cafes", "culture", "villages"], "description": "Your itinerary is really a list of dhabas, siddu stalls and bakeries." },
+    { "id": "budget-backpacker", "name": "Budget Backpacker", "icon": "🎒", "pace": 2, "vibes": ["camping", "adventure", "villages"], "description": "Local buses, dorm beds and shared taxis. You make ₹5,000 go a very long way." },
+    { "id": "photographer", "name": "Photographer", "icon": "📷", "pace": 1, "vibes": ["photography", "stargazing", "lakes"], "description": "You'll wait an hour for the light. Sunrise, blue hour and the Milky Way are your schedule." },
+    { "id": "spiritual-seeker", "name": "Spiritual Seeker", "icon": "🪷", "pace": 1, "vibes": ["spiritual", "culture", "chill"], "description": "Monasteries, temples and quiet mornings. The journey inward matters as much as the trail." }
+  ],
+  "questions": [
+    {
+      "id": "morning",
+      "text": "It's 5 am on day two. You…",
+      "options": [
+        { "label": "Are already on the trail with a headlamp", "points": { "summit-chaser": 2, "photographer": 1 } },
+        { "label": "Are setting up a tripod for sunrise", "points": { "photographer": 2 } },
+        { "label": "Are asleep. Breakfast is at nine.", "points": { "slow-wanderer": 2, "foodie-nomad": 1 } },
+        { "label": "Are sitting quietly at the monastery", "points": { "spiritual-seeker": 2 } }
+      ]
+    },
+    {
+      "id": "money",
+      "text": "You have ₹2,000 left for the day. It goes on…",
+      "options": [
+        { "label": "A local thali, a bus ticket, and change left over", "points": { "budget-backpacker": 2 } },
+        { "label": "The best trout in the valley", "points": { "foodie-nomad": 2 } },
+        { "label": "A guide for tomorrow's climb", "points": { "summit-chaser": 2 } },
+        { "label": "A donation and a quiet homestay", "points": { "spiritual-seeker": 1, "slow-wanderer": 1 } }
+      ]
+    },
+    {
+      "id": "stay",
+      "text": "Your ideal night's stay is…",
+      "options": [
+        { "label": "A tent at 4,000 m", "points": { "summit-chaser": 2, "photographer": 1 } },
+        { "label": "A ₹400 dorm bed with good people", "points": { "budget-backpacker": 2 } },
+        { "label": "A wooden homestay with a family who cooks", "points": { "slow-wanderer": 1, "foodie-nomad": 1 } },
+        { "label": "A monastery guesthouse", "points": { "spiritual-seeker": 2 } }
+      ]
+    },
+    {
+      "id": "plan",
+      "text": "Your trip plan looks like…",
+      "options": [
+        { "label": "A day-by-day schedule with distances and altitudes", "points": { "summit-chaser": 2 } },
+        { "label": "Two or three anchors, the rest open", "points": { "slow-wanderer": 2 } },
+        { "label": "A map of food spots", "points": { "foodie-nomad": 2 } },
+        { "label": "A list of viewpoints and golden-hour times", "points": { "photographer": 2 } }
+      ]
+    },
+    {
+      "id": "memory",
+      "text": "The best part of a trip, looking back, is…",
+      "options": [
+        { "label": "Standing on the pass", "points": { "summit-chaser": 2 } },
+        { "label": "The photo that took three tries", "points": { "photographer": 2 } },
+        { "label": "The chai and stories with locals", "points": { "slow-wanderer": 1, "foodie-nomad": 1 } },
+        { "label": "How little I spent for how much I saw", "points": { "budget-backpacker": 2 } },
+        { "label": "Coming back calmer than I left", "points": { "spiritual-seeker": 2 } }
+      ]
+    },
+    {
+      "id": "buddy",
+      "text": "A good travel buddy…",
+      "options": [
+        { "label": "Keeps up and doesn't complain about the climb", "points": { "summit-chaser": 2 } },
+        { "label": "Splits every cost fairly and hunts for deals", "points": { "budget-backpacker": 2 } },
+        { "label": "Is happy to stop for the view (and the light)", "points": { "photographer": 1, "slow-wanderer": 1 } },
+        { "label": "Will try any street food once", "points": { "foodie-nomad": 2 } },
+        { "label": "Is comfortable with silence", "points": { "spiritual-seeker": 2 } }
+      ]
+    }
+  ]
+}

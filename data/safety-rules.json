@@ -1,0 +1,27 @@
+{
+  "version": "2026.10.1",
+  "weather": {
+    "rain_mm": 15,
+    "heavy_rain_mm": 40,
+    "snow_cm": 1,
+    "heavy_snow_cm": 10,
+    "frost_c": -2,
+    "severe_cold_c": -10,
+    "gust_kmh": 50,
+    "severe_gust_kmh": 75,
+    "uv_index": 8,
+    "storm_codes": [95, 96, 99]
+  },
+  "hazard_reports": {
+    "default_ttl_hours": {
+      "landslide": 72, "road_closure": 24, "river_crossing": 48, "flash_flood": 24, "avalanche": 72,
+      "bear": 72, "leopard": 72, "snake": 48, "lightning": 12, "extreme_cold": 24, "ams": 24
+    },
+    "confirm_extends_hours": 24,
+    "max_ttl_hours": 168,
+    "clears_to_expire": 2,
+    "reports_per_day": 10,
+    "radius_m": 500
+  },
+  "alert_radius_km": 10
+}

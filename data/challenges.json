@@ -1,0 +1,10 @@
+{
+  "challenges": [
+    { "id": "out-there", "name": "Out there", "icon": "🥾", "description": "Complete a GPS-verified trek this month.", "xp": 40, "metric": "season_verified_treks", "target": 1 },
+    { "id": "double-up", "name": "Double up", "icon": "✌️", "description": "Complete 2 GPS-verified trips this month.", "xp": 50, "metric": "season_verified_trips", "target": 2 },
+    { "id": "local-knowledge", "name": "Local knowledge", "icon": "🧭", "description": "Get a hidden place verified this month.", "xp": 30, "metric": "season_contributions", "target": 1 },
+    { "id": "trail-guardian", "name": "Trail guardian", "icon": "🛟", "description": "Confirm or clear 3 traveller hazard reports this month.", "xp": 20, "metric": "season_hazard_actions", "target": 3 }
+  ],
+  "streak": { "xp_per_month": 10, "max_xp": 50 },
+  "leaderboard": { "max_completions_per_day": 2, "top_n": 50, "cache_seconds": 60 }
+}

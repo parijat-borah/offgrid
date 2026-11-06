@@ -1,0 +1,16 @@
+{
+  "id": "himachal",
+  "name": "Himachal Pradesh",
+  "state": "Himachal Pradesh",
+  "bbox": [75.57, 30.38, 79.0, 33.22],
+  "pack_version": "2026.10.1",
+  "default_access_from": "Delhi",
+  "utc_offset_minutes": 330,
+  "emergency": [
+    { "label": "All emergencies (ERSS)", "number": "112" },
+    { "label": "Ambulance", "number": "108" },
+    { "label": "HP disaster helpline", "number": "1070" },
+    { "label": "Women helpline", "number": "1091" },
+    { "label": "Tourist helpline (India)", "number": "1363" }
+  ]
+}

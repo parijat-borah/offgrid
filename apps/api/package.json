@@ -1,0 +1,46 @@
+{
+  "name": "@offgrid/api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "predev": "node ../../scripts/init-env.mjs",
+    "dev": "tsx watch src/server.ts",
+    "start": "tsx src/server.ts",
+    "set-role": "tsx src/scripts/set-role.ts",
+    "predemo:seed": "node ../../scripts/init-env.mjs",
+    "demo:seed": "tsx src/scripts/seed-demo.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@node-rs/argon2": "^2.0.2",
+    "@offgrid/core": "*",
+    "better-sqlite3": "^12.2.0",
+    "compression": "^1.8.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.0.1",
+    "helmet": "^8.1.0",
+    "jose": "^6.0.12",
+    "kysely": "^0.28.5",
+    "multer": "^2.0.2",
+    "sharp": "^0.34.3",
+    "zod": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/compression": "^1.8.1",
+    "@types/cookie-parser": "^1.4.9",
+    "@types/multer": "^2.0.0",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/node": "^22.18.0",
+    "@types/supertest": "^6.0.3",
+    "supertest": "^7.1.4",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0",
+    "vitest": "^3.2.0"
+  }
+}

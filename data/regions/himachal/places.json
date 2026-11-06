@@ -1,0 +1,1134 @@
+[
+  {
+    "id": "triund",
+    "region_id": "himachal",
+    "name": "Triund",
+    "type": "trek",
+    "district": "Kangra",
+    "base_town": "McLeodganj",
+    "base_alt_m": 2082,
+    "lat": 32.2559,
+    "lon": 76.3459,
+    "summary": "The classic first Himalayan trek: a short, steady climb to a grassy ridge facing the Dhauladhar wall.",
+    "difficulty": 1,
+    "days_min": 2,
+    "days_max": 3,
+    "max_altitude_m": 2850,
+    "distance_km": 18,
+    "elevation_gain_m": 1100,
+    "stay_type": "camp",
+    "season": {
+      "good": [3, 4, 5, 9, 10, 11],
+      "risky": [
+        { "months": [6, 7, 8], "reason": "Monsoon: the trail is slippery and the approach roads see landslides." },
+        { "months": [12, 1, 2], "reason": "Snow on the upper trail and sub-zero nights. Go with a local guide." }
+      ],
+      "closed": []
+    },
+    "access_via": [],
+    "vibes": ["camping", "photography", "stargazing"],
+    "cost": {
+      "stay": 800, "food": 450, "local_transport": 150, "activities": 0, "activities_once": 0,
+      "transport_roundtrip": 2200, "permit": 0, "access_from": "Delhi", "is_estimate": true,
+      "source": "Team estimate from HRTC/Volvo fares, campsite listings and trek operator rates", "last_verified": "2026-10-01"
+    },
+    "base_xp": 80,
+    "hazards": ["landslide", "lightning", "leopard"],
+    "safety_notes": [
+      "Start the climb before 10 am so you reach the top with daylight to spare.",
+      "Overnight camping rules on Triund ridge have changed over the years. Use a registered campsite and check with the forest office in Dharamshala.",
+      "Leave the ridge immediately if a thunderstorm builds; it is fully exposed to lightning."
+    ],
+    "permit_notes": "No permit needed for Indian citizens.",
+    "plan": [
+      { "title": "McLeodganj to Triund", "detail": "Arrive by overnight bus. Breakfast, then trek via Galu Devi temple (9 km, about 4–5 h). Sunset over the Kangra valley and camp on the ridge.", "trek_km": 9, "sleep_alt_m": 2850 },
+      { "title": "Sunrise and descent", "detail": "Sunrise over the Dhauladhars, descend to McLeodganj, lunch at Bhagsu and take the evening bus home.", "trek_km": 9, "sleep_alt_m": 2082 }
+    ],
+    "extras": [
+      { "after_day": 1, "kind": "side_trip", "title": "Snowline Café and Laka Got", "detail": "Day hike up to Snowline (3,100 m) for close views of the glacier, back to camp at Triund.", "trek_km": 6, "sleep_alt_m": 2850 }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "kheerganga",
+    "region_id": "himachal",
+    "name": "Kheerganga",
+    "type": "trek",
+    "district": "Kullu",
+    "base_town": "Barshaini",
+    "base_alt_m": 2200,
+    "lat": 31.9938,
+    "lon": 77.513,
+    "summary": "A forest trail along the Parvati river to a meadow with a natural hot spring at the top.",
+    "difficulty": 2,
+    "days_min": 2,
+    "days_max": 3,
+    "max_altitude_m": 2960,
+    "distance_km": 24,
+    "elevation_gain_m": 900,
+    "stay_type": "camp",
+    "season": {
+      "good": [4, 5, 6, 9, 10],
+      "risky": [
+        { "months": [7, 8], "reason": "Monsoon landslides on the Bhuntar–Barshaini road and slippery forest trail." },
+        { "months": [11], "reason": "Cold nights and most camps start closing for winter." }
+      ],
+      "closed": [
+        { "months": [12, 1, 2, 3], "reason": "Snow on the trail and the camps at the top are shut." }
+      ]
+    },
+    "access_via": [],
+    "vibes": ["camping", "hot-springs", "chill", "photography"],
+    "cost": {
+      "stay": 700, "food": 450, "local_transport": 250, "activities": 0, "activities_once": 0,
+      "transport_roundtrip": 2400, "permit": 0, "access_from": "Delhi", "is_estimate": true,
+      "source": "Team estimate from HRTC/Volvo fares, campsite listings and trek operator rates", "last_verified": "2026-10-01"
+    },
+    "base_xp": 120,
+    "hazards": ["landslide", "river_crossing", "bear"],
+    "safety_notes": [
+      "Take the Nakthan (left bank) trail. It is longer but safer than the Rudranag route after rain.",
+      "Camping on the meadow is regulated by court orders; stay only in registered camps or dhabas.",
+      "Carry your plastic back down. The meadow has no waste collection."
+    ],
+    "permit_notes": "No permit needed for Indian citizens.",
+    "plan": [
+      { "title": "Barshaini to Kheerganga", "detail": "Overnight bus to Bhuntar, local bus to Barshaini. Trek via Nakthan village (12 km, 5–6 h). Evening dip in the hot spring.", "trek_km": 12, "sleep_alt_m": 2960 },
+      { "title": "Descent and home", "detail": "Sunrise over the Parvati valley, descend to Barshaini, cafés at Kasol, evening bus from Bhuntar.", "trek_km": 12, "sleep_alt_m": 1580 }
+    ],
+    "extras": [
+      { "after_day": 1, "kind": "rest", "title": "Slow day at Kheerganga", "detail": "Stay a second night. Short walk above the meadow and a quiet evening by the spring.", "trek_km": 2, "sleep_alt_m": 2960 }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "hampta-pass",
+    "region_id": "himachal",
+    "name": "Hampta Pass",
+    "type": "pass",
+    "district": "Kullu / Lahaul",
+    "base_town": "Manali",
+    "base_alt_m": 2050,
+    "lat": 32.2667,
+    "lon": 77.37,
+    "summary": "A crossover trek from green Kullu meadows to the stark, desert landscape of Lahaul.",
+    "difficulty": 2,
+    "days_min": 4,
+    "days_max": 5,
+    "max_altitude_m": 4270,
+    "distance_km": 26,
+    "elevation_gain_m": 1800,
+    "stay_type": "camp",
+    "season": {
+      "good": [6, 7, 8, 9],
+      "risky": [
+        { "months": [10], "reason": "Early snowfall can bury the pass, and nights drop well below freezing." }
+      ],
+      "closed": [
+        { "months": [11, 12, 1, 2, 3, 4, 5], "reason": "The pass is snowbound." }
+      ]
+    },
+    "access_via": ["gramphu_batal"],
+    "vibes": ["adventure", "camping", "snow", "photography"],
+    "cost": {
+      "stay": 600, "food": 400, "local_transport": 300, "activities": 1800, "activities_once": 0,
+      "transport_roundtrip": 2400, "permit": 300, "access_from": "Delhi", "is_estimate": true,
+      "source": "Team estimate from HRTC/Volvo fares and trek operator package rates", "last_verified": "2026-10-01"
+    },
+    "base_xp": 220,
+    "hazards": ["ams", "river_crossing", "extreme_cold", "landslide"],
+    "safety_notes": [
+      "Go with a registered operator or a guide. Weather on the pass changes within an hour.",
+      "River crossings near Balu ka Ghera are safest before noon, when snowmelt is lowest.",
+      "Headache with nausea at Balu ka Ghera is early altitude sickness. Do not go higher until it clears."
+    ],
+    "permit_notes": "A forest department trekking permit is usually arranged by your operator.",
+    "plan": [
+      { "title": "Manali to Chika", "detail": "Drive to Jobra, then an easy trek through pine and maple forest to the Chika campsite.", "trek_km": 3, "sleep_alt_m": 3100 },
+      { "title": "Chika to Balu ka Ghera", "detail": "Follow the Hampta river through meadows, with a couple of stream crossings.", "trek_km": 9, "sleep_alt_m": 3600 },
+      { "title": "Over Hampta Pass to Shea Goru", "detail": "Start at dawn, cross the pass at 4,270 m and descend steeply into Lahaul.", "trek_km": 10, "sleep_alt_m": 3850 },
+      { "title": "Shea Goru to Chatru, drive to Manali", "detail": "Descend to Chatru on the Chandra river, then drive back to Manali through the Atal Tunnel. Night bus home.", "trek_km": 8, "sleep_alt_m": 2050 }
+    ],
+    "extras": [
+      { "after_day": 2, "kind": "acclimatise", "title": "Acclimatisation day at Balu ka Ghera", "detail": "Short hike towards the pass and back. This makes pass day much easier.", "trek_km": 3, "sleep_alt_m": 3600 }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "bir-billing",
+    "region_id": "himachal",
+    "name": "Bir Billing",
+    "type": "town",
+    "district": "Kangra",
+    "base_town": "Bir",
+    "base_alt_m": 1525,
+    "lat": 32.0446,
+    "lon": 76.7194,
+    "summary": "India's paragliding capital: a Tibetan colony with monasteries, cafés and tandem flights from Billing.",
+    "difficulty": 1,
+    "days_min": 2,
+    "days_max": 3,
+    "max_altitude_m": 2400,
+    "distance_km": 0,
+    "elevation_gain_m": 0,
+    "stay_type": "homestay",
+    "season": {
+      "good": [3, 4, 5, 10, 11],
+      "risky": [
+        { "months": [6], "reason": "Hot, strong midday thermals. Fly only in morning slots with a certified pilot." },
+        { "months": [7, 8, 9], "reason": "Paragliding is usually suspended from mid-July to mid-September." },
+        { "months": [12, 1, 2], "reason": "Cold, with short flying windows that depend on the weather." }
+      ],
+      "closed": []
+    },
+    "access_via": [],
+    "vibes": ["paragliding", "adventure", "cafes", "culture", "chill"],
+    "cost": {
+      "stay": 900, "food": 500, "local_transport": 200, "activities": 0, "activities_once": 3000,
+      "transport_roundtrip": 2000, "permit": 0, "access_from": "Delhi", "is_estimate": true,
+      "source": "Team estimate from bus fares, homestay listings and tandem flight operator rates", "last_verified": "2026-10-01"
+    },
+    "base_xp": 70,
+    "hazards": ["road_closure"],
+    "safety_notes": [
+      "Fly only with pilots registered with the HP tourism department, and ask to see their licence.",
+      "Check that the operator gives you a helmet and a harness with a reserve parachute.",
+      "The Billing road is narrow and steep. Use operator transport rather than driving yourself."
+    ],
+    "permit_notes": "No permit needed. Your flight operator handles flying permissions.",
+    "plan": [
+      { "title": "Arrive in Bir", "detail": "Overnight bus to Bir. Walk through the Tibetan colony and Chokling monastery, with sunset at the landing site.", "trek_km": 3, "sleep_alt_m": 1525 },
+      { "title": "Tandem flight from Billing", "detail": "Morning drive to the Billing take-off at 2,400 m for a 15–25 minute tandem flight. Cafés, then the evening bus home.", "trek_km": 0, "sleep_alt_m": 1525 }
+    ],
+    "extras": [
+      { "after_day": 1, "kind": "side_trip", "title": "Billing and Rajgundha meadows", "detail": "Drive up to Billing and hike towards Rajgundha's meadows, then come back to Bir for the night.", "trek_km": 8, "sleep_alt_m": 1525 }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "kasol-manikaran",
+    "region_id": "himachal",
+    "name": "Kasol & Manikaran",
+    "type": "village",
+    "district": "Kullu",
+    "base_town": "Kasol",
+    "base_alt_m": 1580,
+    "lat": 32.0099,
+    "lon": 77.3149,
+    "summary": "Riverside cafés in the Parvati valley, with the Manikaran gurudwara and its hot springs next door.",
+    "difficulty": 1,
+    "days_min": 2,
+    "days_max": 3,
+    "max_altitude_m": 1760,
+    "distance_km": 8,
+    "elevation_gain_m": 200,
+    "stay_type": "homestay",
+    "season": {
+      "good": [3, 4, 5, 6, 9, 10, 11],
+      "risky": [
+        { "months": [7, 8], "reason": "Landslides and flash floods on the Bhuntar–Kasol road during monsoon." },
+        { "months": [12, 1, 2], "reason": "Cold, and many cafés and guesthouses close for winter." }
+      ],
+      "closed": []
+    },
+    "access_via": [],
+    "vibes": ["cafes", "chill", "hot-springs", "culture"],
+    "cost": {
+      "stay": 800, "food": 550, "local_transport": 200, "activities": 0, "activities_once": 0,
+      "transport_roundtrip": 2400, "permit": 0, "access_from": "Delhi", "is_estimate": true,
+      "source": "Team estimate from HRTC/Volvo fares and guesthouse listings", "last_verified": "2026-10-01"
+    },
+    "base_xp": 50,
+    "hazards": ["flash_flood", "landslide"],
+    "safety_notes": [
+      "Don't sit on the riverbank rocks; the Parvati rises fast without warning.",
+      "Solo travellers: stick to well-reviewed guesthouses and share your stay details with someone at home.",
+      "Narcotics possession is a serious offence under the NDPS Act, and police checks are frequent."
+    ],
+    "permit_notes": "No permit needed.",
+    "plan": [
+      { "title": "Kasol and Chalal", "detail": "Overnight bus to Bhuntar, local bus to Kasol. Riverside walk to Chalal village and evening cafés.", "trek_km": 4, "sleep_alt_m": 1580 },
+      { "title": "Manikaran Sahib", "detail": "Visit the gurudwara, community langar and hot springs at Manikaran, then the evening bus from Bhuntar.", "trek_km": 2, "sleep_alt_m": 1580 }
+    ],
+    "extras": [
+      { "after_day": 1, "kind": "side_trip", "title": "Rasol village hike", "detail": "Stiff climb from Chalal to Rasol (2,150 m) through forest, then back down to Kasol.", "trek_km": 10, "sleep_alt_m": 1580 }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "spiti-valley",
+    "region_id": "himachal",
+    "name": "Spiti Valley (Kinnaur route)",
+    "type": "valley",
+    "district": "Kinnaur / Lahaul-Spiti",
+    "base_town": "Shimla",
+    "base_alt_m": 2200,
+    "lat": 32.2276,
+    "lon": 78.071,
+    "summary": "A high-altitude cold desert of monasteries, fossil villages and the world's highest post office.",
+    "difficulty": 2,
+    "days_min": 7,
+    "days_max": 9,
+    "max_altitude_m": 4587,
+    "distance_km": 0,
+    "elevation_gain_m": 0,
+    "stay_type": "homestay",
+    "season": {
+      "good": [6, 9],
+      "risky": [
+        { "months": [7, 8], "reason": "Frequent landslides on NH-5 in Kinnaur during monsoon. Spiti itself stays dry." },
+        { "months": [5, 10], "reason": "Nights below 0 °C, and Kunzum may be shut, so travel via Kinnaur both ways." },
+        { "months": [11, 12, 1, 2, 3, 4], "reason": "Winter Spiti: −15 to −25 °C, frozen pipes and road blocks. Go only with an experienced driver and full winter gear." }
+      ],
+      "closed": []
+    },
+    "access_via": [],
+    "vibes": ["culture", "photography", "stargazing", "adventure", "villages"],
+    "cost": {
+      "stay": 1200, "food": 600, "local_transport": 1500, "activities": 0, "activities_once": 0,
+      "transport_roundtrip": 1400, "permit": 0, "access_from": "Delhi", "is_estimate": true,
+      "source": "Team estimate from HRTC fares, shared taxi rates and homestay listings", "last_verified": "2026-10-01"
+    },
+    "base_xp": 250,
+    "hazards": ["ams", "landslide", "extreme_cold", "road_closure"],
+    "safety_notes": [
+      "Ascend slowly through Kinnaur. Going straight from Shimla to Kaza in one go is the commonest cause of altitude sickness here.",
+      "ATMs and mobile networks are sparse beyond Reckong Peo, so carry cash. BSNL and Jio work in Kaza town.",
+      "Fuel up at Reckong Peo and Kaza; there are no pumps in between."
+    ],
+    "permit_notes": "No permit needed for Indian citizens. Foreign nationals need an Inner Line Permit for parts of the Kinnaur route.",
+    "plan": [
+      { "title": "Shimla to Kalpa", "detail": "Arrive in Shimla early and drive along the Sutlej through Narkanda and Rampur to Kalpa, facing Kinner Kailash.", "trek_km": 0, "sleep_alt_m": 2960 },
+      { "title": "Kalpa to Tabo via Nako", "detail": "Into the cold desert: Nako lake and village, then Tabo's thousand-year-old monastery.", "trek_km": 2, "sleep_alt_m": 3280 },
+      { "title": "Tabo to Pin Valley", "detail": "Dhankar monastery on its cliff, then into Pin Valley National Park to Mud village.", "trek_km": 3, "sleep_alt_m": 3770 },
+      { "title": "Pin Valley to Kaza", "detail": "Drive to Kaza, then Key monastery and Kibber village in the evening.", "trek_km": 2, "sleep_alt_m": 3800 },
+      { "title": "Langza, Hikkim and Komic", "detail": "Fossil village of Langza, the world's highest post office at Hikkim, and Komic at 4,587 m. Back to Kaza.", "trek_km": 3, "sleep_alt_m": 3800 },
+      { "title": "Kaza to Kalpa", "detail": "Long drive back down through Kinnaur.", "trek_km": 0, "sleep_alt_m": 2960 },
+      { "title": "Kalpa to Shimla", "detail": "Drive to Shimla and take the night bus home.", "trek_km": 0, "sleep_alt_m": 2200 }
+    ],
+    "extras": [
+      { "after_day": 4, "kind": "acclimatise", "title": "Rest day in Kaza", "detail": "Slow day in Kaza's market and cafés to let your body adjust to 3,800 m.", "trek_km": 2, "sleep_alt_m": 3800 },
+      { "after_day": 5, "kind": "side_trip", "title": "Dhankar Lake hike", "detail": "A steep hike from Dhankar village to a high lake, then back to Kaza.", "trek_km": 5, "sleep_alt_m": 3800 }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "chandratal",
+    "region_id": "himachal",
+    "name": "Chandratal Lake",
+    "type": "lake",
+    "district": "Lahaul-Spiti",
+    "base_town": "Manali",
+    "base_alt_m": 2050,
+    "lat": 32.4757,
+    "lon": 77.6168,
+    "summary": "A crescent-shaped high-altitude lake whose colour shifts from turquoise to deep blue through the day.",
+    "difficulty": 1,
+    "days_min": 2,
+    "days_max": 3,
+    "max_altitude_m": 4300,
+    "distance_km": 4,
+    "elevation_gain_m": 100,
+    "stay_type": "camp",
+    "season": {
+      "good": [6, 7, 8, 9],
+      "risky": [
+        { "months": [10], "reason": "Camps start closing in early October and nights drop to −5 °C." }
+      ],
+      "closed": [
+        { "months": [11, 12, 1, 2, 3, 4, 5], "reason": "Snowbound and the camps are closed." }
+      ]
+    },
+    "access_via": ["gramphu_batal"],
+    "vibes": ["lakes", "camping", "stargazing", "photography"],
+    "cost": {
+      "stay": 1500, "food": 500, "local_transport": 1500, "activities": 0, "activities_once": 0,
+      "transport_roundtrip": 2400, "permit": 0, "access_from": "Delhi", "is_estimate": true,
+      "source": "Team estimate from HRTC/Volvo fares, shared taxi rates and camp listings", "last_verified": "2026-10-01"
+    },
+    "base_xp": 120,
+    "hazards": ["ams", "extreme_cold", "road_closure", "river_crossing"],
+    "safety_notes": [
+      "Manali to Chandratal is a jump of more than 2,000 m in one day. Watch for headache, nausea or breathlessness at night.",
+      "The Batal–Chandratal stretch has stream crossings that swell in the afternoon. Cross early.",
+      "Camping is not allowed at the lakeshore itself. Camps are about 2 km away."
+    ],
+    "permit_notes": "No permit needed when travelling via the Atal Tunnel.",
+    "plan": [
+      { "title": "Manali to Chandratal", "detail": "Early start through the Atal Tunnel, Gramphu and Batal on a rough road to the camps near the lake.", "trek_km": 0, "sleep_alt_m": 4250 },
+      { "title": "Lake walk and back to Manali", "detail": "Walk the lake circuit at sunrise, then drive back to Manali for the night bus.", "trek_km": 4, "sleep_alt_m": 2050 }
+    ],
+    "extras": [
+      { "after_day": 1, "kind": "side_trip", "title": "Second night at Chandratal", "detail": "Spend another day at the lake for sunrise light and a night of stargazing.", "trek_km": 4, "sleep_alt_m": 4250 }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "prashar-lake",
+    "region_id": "himachal",
+    "name": "Prashar Lake",
+    "type": "lake",
+    "district": "Mandi",
+    "base_town": "Mandi",
+    "base_alt_m": 760,
+    "lat": 31.7543,
+    "lon": 77.1004,
+    "summary": "A sacred lake with a floating island and a pagoda temple, set on a ridge with 360° Himalayan views.",
+    "difficulty": 1,
+    "days_min": 2,
+    "days_max": 3,
+    "max_altitude_m": 2730,
+    "distance_km": 14,
+    "elevation_gain_m": 800,
+    "stay_type": "mixed",
+    "season": {
+      "good": [3, 4, 5, 6, 9, 10, 11],
+      "risky": [
+        { "months": [7, 8], "reason": "Slippery trail and landslides on the Mandi–Baggi road." },
+        { "months": [12, 1, 2], "reason": "Snow can block the road, and nights are well below freezing." }
+      ],
+      "closed": []
+    },
+    "access_via": [],
+    "vibes": ["lakes", "spiritual", "camping", "photography"],
+    "cost": {
+      "stay": 700, "food": 400, "local_transport": 300, "activities": 0, "activities_once": 0,
+      "transport_roundtrip": 1600, "permit": 0, "access_from": "Delhi", "is_estimate": true,
+      "source": "Team estimate from HRTC fares and rest-house/camp listings", "last_verified": "2026-10-01"
+    },
+    "base_xp": 80,
+    "hazards": ["landslide", "lightning"],
+    "safety_notes": [
+      "The temple area is sacred. No alcohol, and don't enter the lake.",
+      "The ridge is exposed. Head down if dark clouds build in the afternoon."
+    ],
+    "permit_notes": "No permit needed.",
+    "plan": [
+      { "title": "Mandi to Prashar", "detail": "Overnight bus to Mandi, local bus to Baggi, then trek up through forest to the lake (7 km). Sunset from the ridge.", "trek_km": 7, "sleep_alt_m": 2730 },
+      { "title": "Sunrise and descent", "detail": "Sunrise over the Dhauladhar and Pir Panjal ranges, visit the temple, descend to Baggi and take the bus home from Mandi.", "trek_km": 7, "sleep_alt_m": 760 }
+    ],
+    "extras": [
+      { "after_day": 1, "kind": "side_trip", "title": "Ridge walk", "detail": "Walk the ridge north of the lake for views of the Kullu valley, then spend a second night at the lake.", "trek_km": 6, "sleep_alt_m": 2730 }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "jibhi-serolsar",
+    "region_id": "himachal",
+    "name": "Jibhi & Serolsar Lake",
+    "type": "village",
+    "district": "Kullu (Banjar)",
+    "base_town": "Jibhi",
+    "base_alt_m": 1900,
+    "lat": 31.5904,
+    "lon": 77.3601,
+    "summary": "Wooden village homestays in the Tirthan side valley, plus a forest walk from Jalori Pass to Serolsar Lake.",
+    "difficulty": 1,
+    "days_min": 2,
+    "days_max": 4,
+    "max_altitude_m": 3120,
+    "distance_km": 10,
+    "elevation_gain_m": 300,
+    "stay_type": "homestay",
+    "season": {
+      "good": [4, 5, 6, 9, 10, 11],
+      "risky": [
+        { "months": [7, 8], "reason": "Monsoon: landslides on the Aut–Banjar road." },
+        { "months": [12, 1, 2, 3], "reason": "Jalori Pass road is often shut by snow, so Serolsar may be unreachable." }
+      ],
+      "closed": []
+    },
+    "access_via": [],
+    "vibes": ["villages", "chill", "lakes", "photography"],
+    "cost": {
+      "stay": 1000, "food": 500, "local_transport": 400, "activities": 0, "activities_once": 0,
+      "transport_roundtrip": 2200, "permit": 0, "access_from": "Delhi", "is_estimate": true,
+      "source": "Team estimate from HRTC fares and homestay listings", "last_verified": "2026-10-01"
+    },
+    "base_xp": 70,
+    "hazards": ["landslide", "bear"],
+    "safety_notes": [
+      "The Jalori road has hairpin bends at a steep gradient. Take a local taxi rather than driving yourself.",
+      "Black bears live in the forest near Serolsar. Walk in groups and make noise on the trail."
+    ],
+    "permit_notes": "No permit needed.",
+    "plan": [
+      { "title": "Arrive in Jibhi", "detail": "Overnight bus to Aut, taxi to Jibhi. Walk to Jibhi waterfall and settle into a wooden homestay.", "trek_km": 2, "sleep_alt_m": 1900 },
+      { "title": "Jalori Pass to Serolsar", "detail": "Drive to Jalori Pass (3,120 m), walk 5 km through oak forest to Serolsar Lake and back. Evening bus home from Aut.", "trek_km": 10, "sleep_alt_m": 1900 }
+    ],
+    "extras": [
+      { "after_day": 1, "kind": "side_trip", "title": "Chehni Kothi", "detail": "Hike to the 1,500-year-old Chehni Kothi tower above Shrikot village.", "trek_km": 4, "sleep_alt_m": 1900 },
+      { "after_day": 1, "kind": "side_trip", "title": "Shoja and Raghupur Fort", "detail": "Ridge walk from Jalori to the ruins of Raghupur Fort, with meadow views of the Greater Himalaya.", "trek_km": 7, "sleep_alt_m": 1900 }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "bhrigu-lake",
+    "region_id": "himachal",
+    "name": "Bhrigu Lake",
+    "type": "trek",
+    "district": "Kullu",
+    "base_town": "Manali",
+    "base_alt_m": 2050,
+    "lat": 32.285,
+    "lon": 77.2287,
+    "summary": "A short, steep trek to an alpine lake above Manali that stays frozen into June.",
+    "difficulty": 2,
+    "days_min": 3,
+    "days_max": 4,
+    "max_altitude_m": 4235,
+    "distance_km": 22,
+    "elevation_gain_m": 1100,
+    "stay_type": "camp",
+    "season": {
+      "good": [6, 9, 10],
+      "risky": [
+        { "months": [7, 8], "reason": "Monsoon brings fog, rain and slippery meadow slopes." }
+      ],
+      "closed": [
+        { "months": [11, 12, 1, 2, 3, 4, 5], "reason": "Deep snow; the trail is not safely marked." }
+      ]
+    },
+    "access_via": [],
+    "vibes": ["lakes", "adventure", "camping", "snow"],
+    "cost": {
+      "stay": 500, "food": 400, "local_transport": 300, "activities": 1500, "activities_once": 0,
+      "transport_roundtrip": 2400, "permit": 200, "access_from": "Delhi", "is_estimate": true,
+      "source": "Team estimate from HRTC/Volvo fares and trek operator package rates", "last_verified": "2026-10-01"
+    },
+    "base_xp": 180,
+    "hazards": ["ams", "lightning", "extreme_cold"],
+    "safety_notes": [
+      "The gain from Gulaba to Rola Kholi is steep. Go slowly and drink 3–4 litres of water a day.",
+      "Turn back from the lake by 1 pm; afternoon fog makes the meadow route hard to follow."
+    ],
+    "permit_notes": "A forest department trekking permit is usually arranged by your operator.",
+    "plan": [
+      { "title": "Manali to Rola Kholi", "detail": "Drive to Gulaba, then a steep climb through meadows to the Rola Kholi camp.", "trek_km": 6, "sleep_alt_m": 3600 },
+      { "title": "Bhrigu Lake summit day", "detail": "Climb to the lake at 4,235 m with views of the Pir Panjal range, then return to camp.", "trek_km": 10, "sleep_alt_m": 3600 },
+      { "title": "Descend to Manali", "detail": "Back to Gulaba and Manali. Evening night bus home.", "trek_km": 6, "sleep_alt_m": 2050 }
+    ],
+    "extras": [
+      { "after_day": 1, "kind": "acclimatise", "title": "Acclimatisation day at Rola Kholi", "detail": "Short walk above camp and back, so summit day is easier.", "trek_km": 3, "sleep_alt_m": 3600 }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "kareri-lake",
+    "region_id": "himachal",
+    "name": "Kareri Lake",
+    "type": "trek",
+    "district": "Kangra",
+    "base_town": "Dharamshala",
+    "base_alt_m": 1450,
+    "lat": 32.33,
+    "lon": 76.271,
+    "summary": "A quiet riverside trek through Gaddi shepherd country to a shallow glacial lake.",
+    "difficulty": 2,
+    "days_min": 3,
+    "days_max": 4,
+    "max_altitude_m": 2934,
+    "distance_km": 27,
+    "elevation_gain_m": 1500,
+    "stay_type": "camp",
+    "season": {
+      "good": [4, 5, 6, 9, 10, 11],
+      "risky": [
+        { "months": [7, 8], "reason": "The Nyund stream crossings become dangerous in monsoon." }
+      ],
+      "closed": [
+        { "months": [12, 1, 2, 3], "reason": "The lake freezes and the upper trail is under snow." }
+      ]
+    },
+    "access_via": [],
+    "vibes": ["lakes", "camping", "villages", "chill"],
+    "cost": {
+      "stay": 400, "food": 400, "local_transport": 200, "activities": 1200, "activities_once": 0,
+      "transport_roundtrip": 2000, "permit": 0, "access_from": "Delhi", "is_estimate": true,
+      "source": "Team estimate from HRTC fares and local guide rates", "last_verified": "2026-10-01"
+    },
+    "base_xp": 150,
+    "hazards": ["river_crossing", "bear", "leopard"],
+    "safety_notes": [
+      "Hire a guide from Kareri village. The trail splits several times along the river.",
+      "Shepherd dogs guard the flocks. Give them space and don't run."
+    ],
+    "permit_notes": "No permit needed.",
+    "plan": [
+      { "title": "Dharamshala to Rioti", "detail": "Taxi to Ghera, then follow the Nyund stream up through Kareri village to the Rioti meadow.", "trek_km": 9, "sleep_alt_m": 2400 },
+      { "title": "Rioti to Kareri Lake", "detail": "Short climb to the lake and the small Shiva temple, then explore the shoreline.", "trek_km": 5, "sleep_alt_m": 2934 },
+      { "title": "Back to Dharamshala", "detail": "Long descent to Ghera, taxi to Dharamshala and the night bus home.", "trek_km": 13, "sleep_alt_m": 1450 }
+    ],
+    "extras": [
+      { "after_day": 2, "kind": "side_trip", "title": "Towards Minkiani Pass", "detail": "Day hike up the ridge towards Minkiani Pass for Dhauladhar views, then back to the lake.", "trek_km": 6, "sleep_alt_m": 2934 }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "beas-kund",
+    "region_id": "himachal",
+    "name": "Beas Kund",
+    "type": "trek",
+    "district": "Kullu",
+    "base_town": "Manali",
+    "base_alt_m": 2050,
+    "lat": 32.37,
+    "lon": 77.08,
+    "summary": "The glacial source of the Beas river, in an amphitheatre under Hanuman Tibba and Friendship Peak.",
+    "difficulty": 2,
+    "days_min": 3,
+    "days_max": 4,
+    "max_altitude_m": 3700,
+    "distance_km": 20,
+    "elevation_gain_m": 1100,
+    "stay_type": "camp",
+    "season": {
+      "good": [6, 9, 10],
+      "risky": [
+        { "months": [7, 8], "reason": "Monsoon: rockfall on the moraine and swollen streams." }
+      ],
+      "closed": [
+        { "months": [11, 12, 1, 2, 3, 4, 5], "reason": "Under snow, with avalanche risk on the moraine." }
+      ]
+    },
+    "access_via": [],
+    "vibes": ["adventure", "camping", "snow", "photography"],
+    "cost": {
+      "stay": 500, "food": 400, "local_transport": 300, "activities": 1300, "activities_once": 0,
+      "transport_roundtrip": 2400, "permit": 200, "access_from": "Delhi", "is_estimate": true,
+      "source": "Team estimate from HRTC/Volvo fares and trek operator package rates", "last_verified": "2026-10-01"
+    },
+    "base_xp": 170,
+    "hazards": ["ams", "avalanche", "river_crossing"],
+    "safety_notes": [
+      "Walk on the moraine in single file and don't stop under loose boulder slopes.",
+      "Solang is crowded with adventure sports. Book only with operators registered with HP tourism."
+    ],
+    "permit_notes": "A forest department trekking permit is usually arranged by your operator.",
+    "plan": [
+      { "title": "Manali to Bakarthach", "detail": "Drive to Solang and Dhundi, then trek along the Beas to the Bakarthach meadow.", "trek_km": 6, "sleep_alt_m": 3300 },
+      { "title": "Beas Kund and back", "detail": "Cross the moraine to the glacial lake at 3,700 m and return to camp.", "trek_km": 8, "sleep_alt_m": 3300 },
+      { "title": "Descend to Manali", "detail": "Walk out to Solang, drive to Manali and take the night bus.", "trek_km": 6, "sleep_alt_m": 2050 }
+    ],
+    "extras": [
+      { "after_day": 2, "kind": "side_trip", "title": "Night at Beas Kund", "detail": "Camp at the lake for sunrise on Hanuman Tibba.", "trek_km": 4, "sleep_alt_m": 3700 }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "tosh",
+    "region_id": "himachal",
+    "name": "Tosh",
+    "type": "village",
+    "district": "Kullu",
+    "base_town": "Barshaini",
+    "base_alt_m": 2200,
+    "lat": 32.0186,
+    "lon": 77.4498,
+    "summary": "A terraced village at the end of the Parvati road, facing snow peaks and the Tosh glacier.",
+    "difficulty": 1,
+    "days_min": 2,
+    "days_max": 3,
+    "max_altitude_m": 2400,
+    "distance_km": 6,
+    "elevation_gain_m": 200,
+    "stay_type": "homestay",
+    "season": {
+      "good": [3, 4, 5, 6, 9, 10, 11],
+      "risky": [
+        { "months": [7, 8], "reason": "Landslides on the Barshaini road during monsoon." },
+        { "months": [12, 1, 2], "reason": "Snowfall, very cold nights and few guesthouses open." }
+      ],
+      "closed": []
+    },
+    "access_via": [],
+    "vibes": ["villages", "chill", "cafes", "snow"],
+    "cost": {
+      "stay": 700, "food": 450, "local_transport": 250, "activities": 0, "activities_once": 0,
+      "transport_roundtrip": 2400, "permit": 0, "access_from": "Delhi", "is_estimate": true,
+      "source": "Team estimate from HRTC/Volvo fares and guesthouse listings", "last_verified": "2026-10-01"
+    },
+    "base_xp": 60,
+    "hazards": ["landslide", "flash_flood"],
+    "safety_notes": [
+      "Respect village customs: ask before photographing people or entering temples.",
+      "Narcotics possession is a serious offence under the NDPS Act, and police checks are frequent in this valley."
+    ],
+    "permit_notes": "No permit needed.",
+    "plan": [
+      { "title": "Barshaini to Tosh", "detail": "Overnight bus to Bhuntar, local bus to Barshaini and a short climb to Tosh. Sunset over the glacier.", "trek_km": 3, "sleep_alt_m": 2400 },
+      { "title": "Tosh valley walk and home", "detail": "Morning walk up the Tosh valley towards Kutla, then back down and the evening bus home.", "trek_km": 6, "sleep_alt_m": 1580 }
+    ],
+    "extras": [
+      { "after_day": 1, "kind": "side_trip", "title": "Pulga and the Fairy Forest", "detail": "Cross to Pulga and wander through its old deodar forest, then come back to Tosh.", "trek_km": 6, "sleep_alt_m": 2400 }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "tirthan-valley",
+    "region_id": "himachal",
+    "name": "Tirthan Valley & GHNP",
+    "type": "valley",
+    "district": "Kullu",
+    "base_town": "Gushaini",
+    "base_alt_m": 1600,
+    "lat": 31.6383,
+    "lon": 77.4627,
+    "summary": "A trout river valley that serves as the gateway to the Great Himalayan National Park, a UNESCO World Heritage Site.",
+    "difficulty": 1,
+    "days_min": 3,
+    "days_max": 5,
+    "max_altitude_m": 2100,
+    "distance_km": 14,
+    "elevation_gain_m": 500,
+    "stay_type": "homestay",
+    "season": {
+      "good": [3, 4, 5, 6, 9, 10, 11],
+      "risky": [
+        { "months": [7, 8], "reason": "Monsoon: GHNP trails are often closed and the river rises fast." },
+        { "months": [12, 1, 2], "reason": "Cold, and the upper park trails are under snow." }
+      ],
+      "closed": []
+    },
+    "access_via": [],
+    "vibes": ["wildlife", "villages", "chill", "photography"],
+    "cost": {
+      "stay": 1000, "food": 500, "local_transport": 300, "activities": 300, "activities_once": 0,
+      "transport_roundtrip": 2200, "permit": 300, "access_from": "Delhi", "is_estimate": true,
+      "source": "Team estimate from HRTC fares, homestay listings and GHNP fee notices", "last_verified": "2026-10-01"
+    },
+    "base_xp": 90,
+    "hazards": ["flash_flood", "bear", "snake"],
+    "safety_notes": [
+      "Enter GHNP only with a park entry permit and, for overnight routes, a registered local guide.",
+      "Trout fishing needs a licence from the fisheries department, and catch-and-release is encouraged."
+    ],
+    "permit_notes": "Great Himalayan National Park entry permit (about ₹50–₹100 for Indians, estimate); fishing licence extra.",
+    "plan": [
+      { "title": "Arrive in Gushaini", "detail": "Overnight bus to Aut, taxi to Gushaini. Riverside walk and trout for dinner.", "trek_km": 3, "sleep_alt_m": 1600 },
+      { "title": "GHNP day hike to Rolla", "detail": "Pick up your park permit, then hike through the park buffer zone to Rolla and back.", "trek_km": 14, "sleep_alt_m": 1600 },
+      { "title": "Bathad and home", "detail": "Slow morning in Bathad village, then the evening bus from Aut.", "trek_km": 4, "sleep_alt_m": 1600 }
+    ],
+    "extras": [
+      { "after_day": 2, "kind": "rest", "title": "Slow day in Gushaini", "detail": "Village walk, local food and a rest day by the river.", "trek_km": 3, "sleep_alt_m": 1600 },
+      { "after_day": 2, "kind": "side_trip", "title": "Serolsar from Jalori", "detail": "Day trip to Jalori Pass and the forest walk to Serolsar Lake.", "trek_km": 10, "sleep_alt_m": 1600 }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "narkanda-hatu",
+    "region_id": "himachal",
+    "name": "Narkanda & Hatu Peak",
+    "type": "town",
+    "district": "Shimla",
+    "base_town": "Shimla",
+    "base_alt_m": 2200,
+    "lat": 31.2645,
+    "lon": 77.4592,
+    "summary": "Apple orchards and a forest walk up to the Hatu temple, with a skiing slope in winter.",
+    "difficulty": 1,
+    "days_min": 2,
+    "days_max": 3,
+    "max_altitude_m": 3400,
+    "distance_km": 8,
+    "elevation_gain_m": 700,
+    "stay_type": "hotel",
+    "season": {
+      "good": [4, 5, 6, 9, 10, 11],
+      "risky": [
+        { "months": [7, 8], "reason": "Monsoon landslides on NH-5." },
+        { "months": [12, 1, 2, 3], "reason": "Snow and black ice on the Shimla–Narkanda road. Great for snow lovers, but drive with locals." }
+      ],
+      "closed": []
+    },
+    "access_via": [],
+    "vibes": ["snow", "photography", "chill", "villages"],
+    "cost": {
+      "stay": 1000, "food": 500, "local_transport": 300, "activities": 0, "activities_once": 0,
+      "transport_roundtrip": 1400, "permit": 0, "access_from": "Delhi", "is_estimate": true,
+      "source": "Team estimate from HRTC fares and hotel listings", "last_verified": "2026-10-01"
+    },
+    "base_xp": 60,
+    "hazards": ["road_closure", "extreme_cold"],
+    "safety_notes": [
+      "In winter, carry snow chains or use a local taxi; black ice on the road is the main risk.",
+      "Hatu Peak is exposed. Don't stay on top during a thunderstorm."
+    ],
+    "permit_notes": "No permit needed.",
+    "plan": [
+      { "title": "Shimla to Narkanda", "detail": "Arrive in Shimla early and take a bus to Narkanda through cedar forest. Evening walk through the orchards.", "trek_km": 3, "sleep_alt_m": 2708 },
+      { "title": "Hatu Peak and home", "detail": "Walk through the forest to the Hatu Mata temple at 3,400 m, back to Narkanda and the bus home via Shimla.", "trek_km": 8, "sleep_alt_m": 2200 }
+    ],
+    "extras": [
+      { "after_day": 1, "kind": "side_trip", "title": "Tannu Jubbar Lake", "detail": "Short trip to Tannu Jubbar Lake and the orchard villages, for apples in autumn or the ski slopes in winter.", "trek_km": 4, "sleep_alt_m": 2708 }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "chitkul",
+    "region_id": "himachal",
+    "name": "Chitkul & Sangla",
+    "type": "village",
+    "district": "Kinnaur",
+    "base_town": "Shimla",
+    "base_alt_m": 2200,
+    "lat": 31.3519,
+    "lon": 78.4389,
+    "summary": "The last inhabited village before the Tibet border, on the Baspa river with wooden Kinnauri houses.",
+    "difficulty": 1,
+    "days_min": 4,
+    "days_max": 6,
+    "max_altitude_m": 3450,
+    "distance_km": 6,
+    "elevation_gain_m": 0,
+    "stay_type": "homestay",
+    "season": {
+      "good": [4, 5, 6, 9, 10],
+      "risky": [
+        { "months": [7, 8], "reason": "Frequent landslides on NH-5 in Kinnaur during monsoon." },
+        { "months": [11, 3], "reason": "Cold, early or late snow, and fewer guesthouses open." }
+      ],
+      "closed": [
+        { "months": [12, 1, 2], "reason": "Heavy snow often blocks the Sangla–Chitkul road and most guesthouses shut." }
+      ]
+    },
+    "access_via": [],
+    "vibes": ["villages", "culture", "photography", "stargazing"],
+    "cost": {
+      "stay": 1000, "food": 500, "local_transport": 1200, "activities": 0, "activities_once": 0,
+      "transport_roundtrip": 1400, "permit": 0, "access_from": "Delhi", "is_estimate": true,
+      "source": "Team estimate from HRTC fares, shared taxi rates and homestay listings", "last_verified": "2026-10-01"
+    },
+    "base_xp": 130,
+    "hazards": ["landslide", "road_closure", "extreme_cold"],
+    "safety_notes": [
+      "Karcham to Sangla is one of the most landslide-prone roads in the state. Travel in daylight only.",
+      "Chitkul has very limited mobile signal; tell someone your plan before leaving Sangla."
+    ],
+    "permit_notes": "No permit needed for Indian citizens. Foreign nationals should check current Inner Line Permit rules for Kinnaur.",
+    "plan": [
+      { "title": "Shimla to Sangla", "detail": "Arrive in Shimla early and drive along the Sutlej, then up the Baspa valley to Sangla.", "trek_km": 0, "sleep_alt_m": 2680 },
+      { "title": "Sangla to Chitkul", "detail": "Short drive to Chitkul. Walk along the Baspa river and visit the Mathi temple.", "trek_km": 4, "sleep_alt_m": 3450 },
+      { "title": "Chitkul to Kalpa", "detail": "Drive to Kalpa for sunset on Kinner Kailash, and walk to Roghi village.", "trek_km": 4, "sleep_alt_m": 2960 },
+      { "title": "Kalpa to Shimla", "detail": "Long drive back to Shimla and the night bus home.", "trek_km": 0, "sleep_alt_m": 2200 }
+    ],
+    "extras": [
+      { "after_day": 2, "kind": "side_trip", "title": "Nagasti and the Baspa meadows", "detail": "Walk up the valley towards the Nagasti ITBP post and the riverside meadows.", "trek_km": 8, "sleep_alt_m": 3450 },
+      { "after_day": 3, "kind": "rest", "title": "Slow morning in Kalpa", "detail": "Rest day with Kinner Kailash views and apple orchards.", "trek_km": 3, "sleep_alt_m": 2960 }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "dalhousie-khajjiar",
+    "region_id": "himachal",
+    "name": "Dalhousie & Khajjiar",
+    "type": "town",
+    "district": "Chamba",
+    "base_town": "Dalhousie",
+    "base_alt_m": 2000,
+    "lat": 32.549,
+    "lon": 76.059,
+    "summary": "A colonial hill station and the forest-ringed Khajjiar meadow, with an easy wildlife walk in Kalatop.",
+    "difficulty": 1,
+    "days_min": 2,
+    "days_max": 3,
+    "max_altitude_m": 2755,
+    "distance_km": 6,
+    "elevation_gain_m": 200,
+    "stay_type": "hotel",
+    "season": {
+      "good": [3, 4, 5, 6, 9, 10, 11],
+      "risky": [
+        { "months": [7, 8], "reason": "Heavy monsoon rain and landslides on the Pathankot road." },
+        { "months": [12, 1, 2], "reason": "Snow can block the Khajjiar road." }
+      ],
+      "closed": []
+    },
+    "access_via": [],
+    "vibes": ["chill", "photography", "wildlife", "culture"],
+    "cost": {
+      "stay": 1200, "food": 550, "local_transport": 400, "activities": 0, "activities_once": 0,
+      "transport_roundtrip": 1800, "permit": 0, "access_from": "Delhi", "is_estimate": true,
+      "source": "Team estimate from train/bus fares and hotel listings", "last_verified": "2026-10-01"
+    },
+    "base_xp": 50,
+    "hazards": ["landslide", "leopard"],
+    "safety_notes": [
+      "Kalatop is a wildlife sanctuary; stay on the marked forest road and walk only in daylight.",
+      "Horse rides at Khajjiar are unregulated. Agree on the price before you get on."
+    ],
+    "permit_notes": "No permit needed.",
+    "plan": [
+      { "title": "Arrive in Dalhousie", "detail": "Overnight train or bus to Pathankot, then a bus to Dalhousie. Walk to the old churches and along Mall Road.", "trek_km": 4, "sleep_alt_m": 2000 },
+      { "title": "Kalatop and Khajjiar", "detail": "Forest walk through Kalatop sanctuary, then the Khajjiar meadow and lake. Evening bus to Pathankot.", "trek_km": 6, "sleep_alt_m": 400 }
+    ],
+    "extras": [
+      { "after_day": 1, "kind": "side_trip", "title": "Dainkund Peak", "detail": "Hike to Pohlani Mata temple on Dainkund peak (2,755 m), the highest point near Dalhousie.", "trek_km": 5, "sleep_alt_m": 2000 }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "barot",
+    "region_id": "himachal",
+    "name": "Barot Valley",
+    "type": "valley",
+    "district": "Mandi",
+    "base_town": "Mandi",
+    "base_alt_m": 760,
+    "lat": 32.039,
+    "lon": 76.847,
+    "summary": "An offbeat river valley with trout farms, a 1920s haulage trolley line and the Nargu wildlife sanctuary.",
+    "difficulty": 1,
+    "days_min": 2,
+    "days_max": 3,
+    "max_altitude_m": 2200,
+    "distance_km": 8,
+    "elevation_gain_m": 300,
+    "stay_type": "homestay",
+    "season": {
+      "good": [3, 4, 5, 6, 9, 10, 11],
+      "risky": [
+        { "months": [7, 8], "reason": "Monsoon landslides on the Ghatasani–Barot road." },
+        { "months": [12, 1, 2], "reason": "Snowfall can block the road from Ghatasani." }
+      ],
+      "closed": []
+    },
+    "access_via": [],
+    "vibes": ["villages", "chill", "wildlife", "camping"],
+    "cost": {
+      "stay": 900, "food": 400, "local_transport": 300, "activities": 0, "activities_once": 0,
+      "transport_roundtrip": 1600, "permit": 0, "access_from": "Delhi", "is_estimate": true,
+      "source": "Team estimate from HRTC fares and homestay listings", "last_verified": "2026-10-01"
+    },
+    "base_xp": 60,
+    "hazards": ["landslide", "bear", "flash_flood"],
+    "safety_notes": [
+      "Water is released from the Barot reservoir without warning. Stay off riverbed rocks.",
+      "Nargu sanctuary has black bears; walk in groups and avoid dusk."
+    ],
+    "permit_notes": "No permit needed. Fishing needs a licence from the fisheries department.",
+    "plan": [
+      { "title": "Mandi to Barot", "detail": "Overnight bus to Mandi, then a bus via Ghatasani to Barot. Riverside walk and the trout farm.", "trek_km": 3, "sleep_alt_m": 1830 },
+      { "title": "Lohardi and home", "detail": "Walk along the Uhl river to Lohardi village and back, then the evening bus via Mandi.", "trek_km": 5, "sleep_alt_m": 760 }
+    ],
+    "extras": [
+      { "after_day": 1, "kind": "side_trip", "title": "Polling village and the trolley line", "detail": "Hike up to Polling village along the old haulage trolley line.", "trek_km": 8, "sleep_alt_m": 1830 }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "churdhar",
+    "region_id": "himachal",
+    "name": "Churdhar Peak",
+    "type": "trek",
+    "district": "Sirmaur",
+    "base_town": "Nohradhar",
+    "base_alt_m": 2100,
+    "lat": 30.873,
+    "lon": 77.471,
+    "summary": "The highest peak in the outer Himalaya, with a Shiva temple on top and views stretching to the Gangetic plains.",
+    "difficulty": 2,
+    "days_min": 2,
+    "days_max": 3,
+    "max_altitude_m": 3647,
+    "distance_km": 28,
+    "elevation_gain_m": 1550,
+    "stay_type": "mixed",
+    "season": {
+      "good": [4, 5, 6, 9, 10, 11],
+      "risky": [
+        { "months": [7, 8], "reason": "Monsoon fog, leeches and lightning on the summit ridge." }
+      ],
+      "closed": [
+        { "months": [12, 1, 2, 3], "reason": "Snow on the trail; the temple and sarai close for winter." }
+      ]
+    },
+    "access_via": [],
+    "vibes": ["spiritual", "adventure", "photography", "wildlife"],
+    "cost": {
+      "stay": 300, "food": 300, "local_transport": 300, "activities": 0, "activities_once": 0,
+      "transport_roundtrip": 1600, "permit": 0, "access_from": "Delhi", "is_estimate": true,
+      "source": "Team estimate from HRTC fares and temple sarai donations", "last_verified": "2026-10-01"
+    },
+    "base_xp": 160,
+    "hazards": ["lightning", "bear", "ams"],
+    "safety_notes": [
+      "Summit day is long. Start before 6 am and carry a headlamp.",
+      "The summit is a lightning hotspot, so descend at the first sign of a storm.",
+      "Churdhar is a wildlife sanctuary; follow the temple trail and carry back all waste."
+    ],
+    "permit_notes": "No permit needed.",
+    "plan": [
+      { "title": "Nohradhar to Churdhar sarai", "detail": "Overnight bus via Solan to Nohradhar, then a long forest trek to the temple sarai below the summit.", "trek_km": 14, "sleep_alt_m": 3560 },
+      { "title": "Summit sunrise and descent", "detail": "Sunrise from the summit at 3,647 m, then descend to Nohradhar for the bus home.", "trek_km": 14, "sleep_alt_m": 2100 }
+    ],
+    "extras": [
+      { "after_day": 1, "kind": "rest", "title": "Second night near the summit", "detail": "Rest at the sarai and catch both sunset and sunrise from the top.", "trek_km": 2, "sleep_alt_m": 3560 }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "indrahar-pass",
+    "region_id": "himachal",
+    "name": "Indrahar Pass",
+    "type": "pass",
+    "district": "Kangra",
+    "base_town": "McLeodganj",
+    "base_alt_m": 2082,
+    "lat": 32.315,
+    "lon": 76.373,
+    "summary": "A steep, rocky pass across the Dhauladhar ridge, with views down into Chamba and across to the Pir Panjal.",
+    "difficulty": 3,
+    "days_min": 4,
+    "days_max": 5,
+    "max_altitude_m": 4342,
+    "distance_km": 35,
+    "elevation_gain_m": 2300,
+    "stay_type": "camp",
+    "season": {
+      "good": [5, 6, 9, 10],
+      "risky": [
+        { "months": [7, 8], "reason": "Monsoon whiteouts, slippery rock and lightning on the ridge." },
+        { "months": [11], "reason": "Early snow can make the final boulder section technical." }
+      ],
+      "closed": [
+        { "months": [12, 1, 2, 3, 4], "reason": "The pass is under snow and needs mountaineering gear." }
+      ]
+    },
+    "access_via": [],
+    "vibes": ["adventure", "camping", "photography", "snow"],
+    "cost": {
+      "stay": 500, "food": 400, "local_transport": 150, "activities": 1800, "activities_once": 0,
+      "transport_roundtrip": 2200, "permit": 200, "access_from": "Delhi", "is_estimate": true,
+      "source": "Team estimate from HRTC/Volvo fares and trek operator package rates", "last_verified": "2026-10-01"
+    },
+    "base_xp": 320,
+    "hazards": ["ams", "lightning", "avalanche", "extreme_cold"],
+    "safety_notes": [
+      "The final 300 m is boulder scrambling. Don't attempt it without a guide who knows the route.",
+      "Water is scarce above Lahesh Caves, so carry 3 litres per person on summit day."
+    ],
+    "permit_notes": "A forest department trekking permit is usually arranged by your operator.",
+    "plan": [
+      { "title": "McLeodganj to Laka Got", "detail": "Trek past Triund and Snowline to the Laka Got campsite below the glacier.", "trek_km": 12, "sleep_alt_m": 3350 },
+      { "title": "Laka Got to Lahesh Caves", "detail": "Short, steep climb to the rock shelters at Lahesh.", "trek_km": 4, "sleep_alt_m": 3600 },
+      { "title": "Indrahar Pass and back", "detail": "Pre-dawn start, boulder scramble to the pass at 4,342 m, then return to Lahesh.", "trek_km": 8, "sleep_alt_m": 3600 },
+      { "title": "Descend to McLeodganj", "detail": "Long descent via Triund. Evening bus home.", "trek_km": 15, "sleep_alt_m": 2082 }
+    ],
+    "extras": [
+      { "after_day": 2, "kind": "acclimatise", "title": "Acclimatisation at Lahesh Caves", "detail": "Rest and a short hike above the caves before the pass push.", "trek_km": 2, "sleep_alt_m": 3600 }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "pin-parvati-pass",
+    "region_id": "himachal",
+    "name": "Pin Parvati Pass",
+    "type": "pass",
+    "district": "Kullu / Lahaul-Spiti",
+    "base_town": "Barshaini",
+    "base_alt_m": 2200,
+    "lat": 31.97,
+    "lon": 77.79,
+    "summary": "A serious high-altitude expedition from the green Parvati valley over a glaciated 5,319 m pass into Spiti.",
+    "difficulty": 3,
+    "days_min": 9,
+    "days_max": 11,
+    "max_altitude_m": 5319,
+    "distance_km": 110,
+    "elevation_gain_m": 3600,
+    "stay_type": "camp",
+    "season": {
+      "good": [7, 8, 9],
+      "risky": [
+        { "months": [6, 10], "reason": "Heavy snow cover on the pass hides crevasses, and storms come early or late in the season." }
+      ],
+      "closed": [
+        { "months": [11, 12, 1, 2, 3, 4, 5], "reason": "The pass is snowbound." }
+      ]
+    },
+    "access_via": ["kunzum"],
+    "vibes": ["adventure", "camping", "snow", "lakes"],
+    "cost": {
+      "stay": 600, "food": 500, "local_transport": 200, "activities": 3000, "activities_once": 0,
+      "transport_roundtrip": 2500, "permit": 500, "access_from": "Delhi", "is_estimate": true,
+      "source": "Team estimate from HRTC fares and expedition operator package rates", "last_verified": "2026-10-01"
+    },
+    "base_xp": 600,
+    "hazards": ["ams", "river_crossing", "avalanche", "extreme_cold"],
+    "safety_notes": [
+      "Do not attempt this without a registered expedition outfit, a rope team and glacier gear.",
+      "You need prior experience of at least one 4,500 m+ trek.",
+      "There is no network for 7 days. Carry a satellite messenger or an OFFGRID beacon."
+    ],
+    "permit_notes": "Forest and wildlife permits for the Great Himalayan National Park buffer and Pin Valley National Park; your outfit arranges them.",
+    "plan": [
+      { "title": "Barshaini to Kheerganga", "detail": "Start the expedition on the Kheerganga trail.", "trek_km": 12, "sleep_alt_m": 2960 },
+      { "title": "Kheerganga to Tunda Bhuj", "detail": "Into the upper Parvati valley.", "trek_km": 12, "sleep_alt_m": 3285 },
+      { "title": "Tunda Bhuj to Thakur Kuan", "detail": "Meadows and boulder fields along the river.", "trek_km": 12, "sleep_alt_m": 3560 },
+      { "title": "Thakur Kuan to Odi Thach", "detail": "Cross the natural rock bridge at Pandu Pul.", "trek_km": 10, "sleep_alt_m": 3800 },
+      { "title": "Odi Thach to Mantalai", "detail": "Reach the sacred Mantalai lake, the source of the Parvati.", "trek_km": 12, "sleep_alt_m": 4100 },
+      { "title": "Mantalai to Base Camp", "detail": "Steep climb onto moraine to the pass base camp.", "trek_km": 9, "sleep_alt_m": 4800 },
+      { "title": "Over Pin Parvati Pass", "detail": "Rope up across the glacier to the 5,319 m pass, then descend to the Pin side.", "trek_km": 12, "sleep_alt_m": 4500 },
+      { "title": "Pin side to Mud village", "detail": "Long walk down the Pin valley to Mud.", "trek_km": 18, "sleep_alt_m": 3770 },
+      { "title": "Mud to Manali via Kunzum", "detail": "Drive via Kaza and Kunzum Pass to Manali, then the night bus home.", "trek_km": 0, "sleep_alt_m": 2050 }
+    ],
+    "extras": [
+      { "after_day": 5, "kind": "acclimatise", "title": "Acclimatise at Mantalai", "detail": "Rest day and a short hike above the lake before the big climb.", "trek_km": 3, "sleep_alt_m": 4100 },
+      { "after_day": 7, "kind": "rest", "title": "Weather buffer day", "detail": "Pass crossings often slip a day because of weather, so keep this in reserve.", "trek_km": 0, "sleep_alt_m": 4500 }
+    ],
+    "sensitive": false
+  },
+  {
+    "id": "chandrakhani-pass",
+    "region_id": "himachal",
+    "name": "Chandrakhani Pass",
+    "type": "pass",
+    "district": "Kullu",
+    "base_town": "Naggar",
+    "base_alt_m": 1800,
+    "lat": 32.117,
+    "lon": 77.24,
+    "summary": "Meadows and deodar forest above Naggar, rising to a pass with views of the Pir Panjal and Parvati ranges.",
+    "difficulty": 2,
+    "days_min": 3,
+    "days_max": 4,
+    "max_altitude_m": 3660,
+    "distance_km": 24,
+    "elevation_gain_m": 1700,
+    "stay_type": "camp",
+    "season": {
+      "good": [5, 6, 9, 10],
+      "risky": [
+        { "months": [7, 8], "reason": "Monsoon: slippery meadow slopes and leeches lower down." },
+        { "months": [4, 11], "reason": "Lingering or early snow near the pass and freezing nights." }
+      ],
+      "closed": [
+        { "months": [12, 1, 2, 3], "reason": "The pass is under snow." }
+      ]
+    },
+    "access_via": [],
+    "vibes": ["camping", "photography", "culture", "adventure"],
+    "cost": {
+      "stay": 500, "food": 400, "local_transport": 300, "activities": 1300, "activities_once": 0,
+      "transport_roundtrip": 2400, "permit": 0, "access_from": "Delhi", "is_estimate": true,
+      "source": "Team estimate from HRTC/Volvo fares and trek operator package rates", "last_verified": "2026-10-01"
+    },
+    "base_xp": 170,
+    "hazards": ["ams", "bear", "lightning"],
+    "safety_notes": [
+      "The trail forks towards Malana. Malana has strict local customs about touching people and property, so don't descend that way without a guide.",
+      "Meadows above Rumsu are exposed. Plan to be off the pass by early afternoon."
+    ],
+    "permit_notes": "No permit needed.",
+    "plan": [
+      { "title": "Naggar to Rumsu meadows", "detail": "Overnight bus to Kullu, taxi to Naggar and Rumsu village, then climb through deodar forest to a meadow camp.", "trek_km": 8, "sleep_alt_m": 3000 },
+      { "title": "Chandrakhani Pass and back", "detail": "Climb to the pass at 3,660 m for views of Deo Tibba, and return to camp.", "trek_km": 8, "sleep_alt_m": 3000 },
+      { "title": "Descend to Naggar", "detail": "Walk down to Rumsu and Naggar, visit Naggar Castle, then the night bus from Kullu.", "trek_km": 8, "sleep_alt_m": 1800 }
+    ],
+    "extras": [
+      { "after_day": 2, "kind": "rest", "title": "Slow day in the meadows", "detail": "Extra night in the meadows. Explore the ridge and watch the shepherds bring their flocks in.", "trek_km": 3, "sleep_alt_m": 3000 }
+    ],
+    "sensitive": false
+  }
+]

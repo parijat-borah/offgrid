@@ -1,0 +1,14 @@
+[
+  {
+    "id": "gramphu_batal",
+    "name": "Gramphu–Batal road",
+    "closed_months": [11, 12, 1, 2, 3, 4, 5],
+    "note": "Snowbound in winter. It usually opens in June and closes by early November. Exact dates vary each year."
+  },
+  {
+    "id": "kunzum",
+    "name": "Kunzum Pass",
+    "closed_months": [11, 12, 1, 2, 3, 4, 5],
+    "note": "Usually open from mid-June to late October. Exact dates depend on snowfall and BRO clearance."
+  }
+]

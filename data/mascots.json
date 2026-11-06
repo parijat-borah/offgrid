@@ -1,0 +1,13 @@
+{
+  "stages": [
+    { "id": "rookie", "name": "Rookie Wanderer", "min_level": 1, "description": "Just laced up. Every trail is new." },
+    { "id": "trail-hunter", "name": "Trail Hunter", "min_level": 3, "description": "Has earned a trail cap and knows the way to the next ridge." },
+    { "id": "summit-seeker", "name": "Summit Seeker", "min_level": 5, "description": "Backpack on, eyes on the high passes." },
+    { "id": "legend", "name": "Legend of the Hills", "min_level": 8, "description": "Prayer-flag scarf and a summit flag. The hills know this one." }
+  ],
+  "species": [
+    { "id": "snow_leopard", "name": "Snow leopard" },
+    { "id": "monal", "name": "Himalayan monal" },
+    { "id": "red_panda", "name": "Red panda" }
+  ]
+}

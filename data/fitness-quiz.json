@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "id": "exercise",
+      "text": "How often do you exercise?",
+      "options": [
+        { "label": "Rarely", "points": 0 },
+        { "label": "1–2 times a week", "points": 1 },
+        { "label": "3 or more times a week", "points": 2 }
+      ]
+    },
+    {
+      "id": "stairs",
+      "text": "Can you climb 5 floors of stairs without stopping?",
+      "options": [
+        { "label": "No, I need a break", "points": 0 },
+        { "label": "Yes, but I'm out of breath", "points": 1 },
+        { "label": "Easily, even with a bag", "points": 2 }
+      ]
+    },
+    {
+      "id": "longest-walk",
+      "text": "What's the longest walk or hike you've done in the last year?",
+      "options": [
+        { "label": "Under 5 km", "points": 0 },
+        { "label": "5–12 km", "points": 1 },
+        { "label": "Over 12 km, or a multi-day trek", "points": 2 }
+      ]
+    },
+    {
+      "id": "altitude",
+      "text": "What's the highest altitude you've slept at?",
+      "options": [
+        { "label": "Below 2,000 m", "points": 0 },
+        { "label": "2,000–3,500 m", "points": 1 },
+        { "label": "Above 3,500 m", "points": 2 }
+      ]
+    },
+    {
+      "id": "jog",
+      "text": "Can you jog 3 km without stopping?",
+      "options": [
+        { "label": "No", "points": 0 },
+        { "label": "Slowly", "points": 1 },
+        { "label": "Comfortably", "points": 2 }
+      ]
+    }
+  ],
+  "bands": [
+    { "max_points": 3, "level": 1, "label": "Easy trails", "description": "Start with short treks of up to about 10 km a day, like Triund or Prashar Lake." },
+    { "max_points": 7, "level": 2, "label": "Moderate treks", "description": "You're ready for multi-day treks up to around 4,300 m, like Hampta Pass or Bhrigu Lake." },
+    { "max_points": 10, "level": 3, "label": "Hard treks", "description": "You can take on long days and high passes, as long as you have a good guide." }
+  ]
+}

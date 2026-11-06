@@ -1,0 +1,13 @@
+{
+  "version": "2026.10.1",
+  "xp_per_level": 100,
+  "validation_multiplier": { "verified": 1, "partial": 0.5, "manual": 0.25 },
+  "manual_trips_per_month": 2,
+  "plausibility": {
+    "min_points": 6,
+    "reach_radius_km": 2,
+    "min_hours_per_plan_day": 4,
+    "max_speed_kmh": 150,
+    "future_tolerance_min": 5
+  }
+}

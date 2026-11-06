@@ -1,0 +1,40 @@
+[
+  { "id": "gov-id", "label": "Government photo ID (and a photocopy)", "category": "documents" },
+  { "id": "offline-plan", "label": "Offline copy of this plan and emergency contacts", "category": "documents" },
+  { "id": "cash", "label": "Cash in small notes (UPI often fails without signal)", "category": "documents" },
+
+  { "id": "water-bottle", "label": "1 L water bottle", "category": "essentials" },
+  { "id": "headlamp", "label": "Headlamp with spare batteries", "category": "essentials" },
+  { "id": "power-bank", "label": "Power bank (10,000 mAh)", "category": "essentials" },
+  { "id": "sunscreen", "label": "Sunscreen SPF 50 and lip balm", "category": "essentials", "when": [{ "altitude_gte": 2500 }] },
+  { "id": "sunglasses", "label": "UV400 sunglasses", "category": "essentials", "when": [{ "altitude_gte": 3000 }, { "months": [12, 1, 2, 3] }] },
+  { "id": "trash-bag", "label": "Reusable bag to carry your waste back down", "category": "essentials", "when": [{ "types": ["trek", "pass", "lake"] }] },
+  { "id": "whistle", "label": "Whistle (signalling and keeping animals away)", "category": "essentials", "when": [{ "hazards_any": ["bear", "leopard", "avalanche"] }] },
+
+  { "id": "fleece", "label": "Fleece or warm mid-layer", "category": "clothing" },
+  { "id": "socks", "label": "Extra socks (one pair per day, plus one)", "category": "clothing" },
+  { "id": "rain-jacket", "label": "Rain jacket or poncho", "category": "clothing", "when": [{ "months": [6, 7, 8, 9] }] },
+  { "id": "down-jacket", "label": "Down or synthetic insulated jacket", "category": "clothing", "when": [{ "altitude_gte": 3000 }, { "months": [11, 12, 1, 2, 3] }] },
+  { "id": "cap-gloves", "label": "Woollen cap and gloves", "category": "clothing", "when": [{ "altitude_gte": 2800 }, { "months": [11, 12, 1, 2, 3] }] },
+  { "id": "thermals", "label": "Thermal inner set", "category": "clothing", "when": [{ "altitude_gte": 3500 }, { "months": [12, 1, 2] }] },
+  { "id": "trek-pants", "label": "Quick-dry trek pants (no jeans)", "category": "clothing", "when": [{ "types": ["trek", "pass"] }] },
+  { "id": "trek-shoes", "label": "Trekking shoes with ankle support", "category": "clothing", "when": [{ "types": ["trek", "pass", "lake"] }] },
+
+  { "id": "daypack", "label": "Daypack (20 L) with rain cover", "category": "gear" },
+  { "id": "backpack", "label": "Backpack (40–50 L) with rain cover", "category": "gear", "when": [{ "types": ["trek", "pass"], "days_gte": 3 }] },
+  { "id": "trek-pole", "label": "Trekking pole", "category": "gear", "when": [{ "difficulty_gte": 2 }] },
+  { "id": "microspikes", "label": "Microspikes for icy trails", "category": "gear", "when": [{ "months": [11, 12, 1, 2, 3, 4], "altitude_gte": 2500 }] },
+  { "id": "sleeping-liner", "label": "Sleeping bag liner (camp bedding is shared)", "category": "gear", "when": [{ "stay_types": ["camp"] }] },
+  { "id": "sleeping-bag", "label": "Sleeping bag rated to −5 °C (if the operator doesn't supply one)", "category": "gear", "when": [{ "stay_types": ["camp"], "altitude_gte": 3500 }] },
+  { "id": "dry-bags", "label": "Dry bags for phone and electronics", "category": "gear", "when": [{ "months": [6, 7, 8, 9] }, { "hazards_any": ["river_crossing"] }] },
+
+  { "id": "first-aid", "label": "Personal first-aid kit (plasters, crepe bandage, antiseptic)", "category": "health" },
+  { "id": "ors", "label": "ORS sachets", "category": "health" },
+  { "id": "water-purifier", "label": "Water purification tablets or filter bottle", "category": "health", "when": [{ "types": ["trek", "pass", "lake"] }] },
+  { "id": "diamox", "label": "Acetazolamide (Diamox), only on a doctor's advice", "category": "health", "when": [{ "altitude_gte": 3500 }] },
+  { "id": "oximeter", "label": "Pulse oximeter", "category": "health", "when": [{ "altitude_gte": 4000 }] },
+  { "id": "leech-repellent", "label": "Insect and leech repellent", "category": "health", "when": [{ "months": [6, 7, 8, 9] }] },
+
+  { "id": "offline-maps", "label": "OFFGRID region pack and offline maps downloaded", "category": "tech" },
+  { "id": "beacon", "label": "OFFGRID beacon charged and paired", "category": "tech", "when": [{ "difficulty_gte": 2, "days_gte": 3 }, { "altitude_gte": 4000 }] }
+]

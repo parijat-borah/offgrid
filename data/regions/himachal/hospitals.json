@@ -1,0 +1,22 @@
+[
+  { "id": "igmc-shimla", "name": "Indira Gandhi Medical College & Hospital, Shimla", "level": "medical_college", "lat": 31.1043, "lon": 77.1735, "emergency_24h": true },
+  { "id": "zonal-dharamshala", "name": "Zonal Hospital, Dharamshala", "level": "district", "lat": 32.2186, "lon": 76.3237, "emergency_24h": true },
+  { "id": "tanda-medical-college", "name": "Dr. RPGMC Tanda (Kangra)", "level": "medical_college", "lat": 32.0905, "lon": 76.2985, "emergency_24h": true },
+  { "id": "regional-kullu", "name": "Regional Hospital, Kullu", "level": "district", "lat": 31.9574, "lon": 77.1095, "emergency_24h": true },
+  { "id": "mission-manali", "name": "Lady Willingdon Hospital, Manali", "level": "civil", "lat": 32.2449, "lon": 77.1857, "emergency_24h": true },
+  { "id": "civil-manali", "name": "Civil Hospital, Manali", "level": "civil", "lat": 32.2392, "lon": 77.1883, "emergency_24h": true },
+  { "id": "nerchowk-mandi", "name": "SLBS Govt Medical College, Ner Chowk (Mandi)", "level": "medical_college", "lat": 31.6124, "lon": 76.9094, "emergency_24h": true },
+  { "id": "zonal-mandi", "name": "Zonal Hospital, Mandi", "level": "district", "lat": 31.7084, "lon": 76.932, "emergency_24h": true },
+  { "id": "regional-keylong", "name": "Regional Hospital, Keylong", "level": "district", "lat": 32.5714, "lon": 77.0333, "emergency_24h": true },
+  { "id": "civil-kaza", "name": "Civil Hospital, Kaza", "level": "civil", "lat": 32.2282, "lon": 78.0694, "emergency_24h": true },
+  { "id": "regional-reckong-peo", "name": "Regional Hospital, Reckong Peo", "level": "district", "lat": 31.5385, "lon": 78.2716, "emergency_24h": true },
+  { "id": "chc-sangla", "name": "Community Health Centre, Sangla", "level": "chc", "lat": 31.4247, "lon": 78.2618, "emergency_24h": false },
+  { "id": "khaneri-rampur", "name": "Khaneri Hospital, Rampur", "level": "civil", "lat": 31.4469, "lon": 77.6436, "emergency_24h": true },
+  { "id": "chamba-medical-college", "name": "Pt. JLN Govt Medical College, Chamba", "level": "medical_college", "lat": 32.5536, "lon": 76.1305, "emergency_24h": true },
+  { "id": "civil-dalhousie", "name": "Civil Hospital, Dalhousie", "level": "civil", "lat": 32.5387, "lon": 75.9805, "emergency_24h": true },
+  { "id": "chc-banjar", "name": "Community Health Centre, Banjar", "level": "chc", "lat": 31.6379, "lon": 77.3459, "emergency_24h": false },
+  { "id": "civil-baijnath", "name": "Civil Hospital, Baijnath", "level": "civil", "lat": 32.0516, "lon": 76.6476, "emergency_24h": true },
+  { "id": "chc-manikaran", "name": "Community Health Centre, Manikaran area", "level": "chc", "lat": 32.0273, "lon": 77.3476, "emergency_24h": false },
+  { "id": "civil-narkanda", "name": "Health Centre, Narkanda", "level": "chc", "lat": 31.2592, "lon": 77.4602, "emergency_24h": false },
+  { "id": "civil-rajgarh", "name": "Civil Hospital, Rajgarh (Sirmaur)", "level": "civil", "lat": 30.8519, "lon": 77.3012, "emergency_24h": true }
+]

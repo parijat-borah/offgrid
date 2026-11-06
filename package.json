@@ -1,0 +1,25 @@
+{
+  "name": "offgrid",
+  "private": true,
+  "version": "0.0.1",
+  "description": "OFFGRID: offline-first, gamified trek and travel companion with an SOS beacon (SIH 2026, PS 26216)",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "concurrently -k -n api,web -c green,blue \"npm run dev -w @offgrid/api\" \"npm run dev -w @offgrid/web\"",
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "demo": "npm run demo:seed -w @offgrid/api -- --reset",
+    "validate:data": "npm run test -w @offgrid/core -- data game media"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  }
+}

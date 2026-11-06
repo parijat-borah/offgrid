@@ -1,0 +1,122 @@
+[
+  {
+    "id": "hz-malling-nallah", "region_id": "himachal", "kind": "landslide", "severity": 3,
+    "title": "Malling Nallah slide zone (NH-5, Kinnaur)",
+    "description": "A long-running slide zone between Khab and Nako. Rockfall and mud flows can block the road for hours after rain.",
+    "lat": 31.86, "lon": 78.62, "radius_m": 3000, "months": [6, 7, 8, 9],
+    "place_ids": ["spiti-valley"],
+    "source": "curated", "source_note": "Team summary of commonly reported risks; not an official advisory. Check HP PWD / police updates."
+  },
+  {
+    "id": "hz-karcham-sangla", "region_id": "himachal", "kind": "landslide", "severity": 3,
+    "title": "Karcham–Sangla road",
+    "description": "A narrow cliff road prone to rockfall in rain and freeze-thaw. Travel in daylight and don't stop under loose slopes.",
+    "lat": 31.5, "lon": 78.19, "radius_m": 6000, "months": [3, 4, 6, 7, 8, 9],
+    "place_ids": ["chitkul"],
+    "source": "curated", "source_note": "Team summary of commonly reported risks; not an official advisory."
+  },
+  {
+    "id": "hz-parvati-road", "region_id": "himachal", "kind": "flash_flood", "severity": 3,
+    "title": "Parvati river: Bhuntar to Barshaini",
+    "description": "The Parvati rises fast after cloudbursts upstream. Stay off riverbank rocks and don't camp on gravel bars.",
+    "lat": 32.0, "lon": 77.32, "radius_m": 9000, "months": [6, 7, 8, 9],
+    "place_ids": ["kasol-manikaran", "tosh", "kheerganga", "pin-parvati-pass"],
+    "source": "curated", "source_note": "Team summary of commonly reported risks; not an official advisory."
+  },
+  {
+    "id": "hz-beas-highway", "region_id": "himachal", "kind": "landslide", "severity": 2,
+    "title": "Kiratpur–Manali highway, Pandoh to Aut",
+    "description": "Slides and road damage are common in monsoon. Expect long delays, and avoid driving at night.",
+    "lat": 31.67, "lon": 77.07, "radius_m": 8000, "months": [7, 8],
+    "place_ids": ["jibhi-serolsar", "tirthan-valley"],
+    "source": "curated", "source_note": "Team summary of commonly reported risks; not an official advisory."
+  },
+  {
+    "id": "hz-hampta-crossings", "region_id": "himachal", "kind": "river_crossing", "severity": 2,
+    "title": "Snow-melt stream crossings near Balu ka Ghera",
+    "description": "Streams swell through the afternoon. Cross before noon, unclip your backpack hip belt and face upstream.",
+    "lat": 32.26, "lon": 77.33, "radius_m": 3000, "months": [6, 7, 8],
+    "place_ids": ["hampta-pass"],
+    "source": "curated", "source_note": "Team summary of commonly reported risks; not an official advisory."
+  },
+  {
+    "id": "hz-batal-chandratal", "region_id": "himachal", "kind": "river_crossing", "severity": 2,
+    "title": "Batal–Chandratal road crossings",
+    "description": "Glacial streams cross the road and run highest in the afternoon. Vehicles can get stuck; cross early.",
+    "lat": 32.4, "lon": 77.62, "radius_m": 6000, "months": [6, 7, 8],
+    "place_ids": ["chandratal"],
+    "source": "curated", "source_note": "Team summary of commonly reported risks; not an official advisory."
+  },
+  {
+    "id": "hz-dhauladhar-leopard", "region_id": "himachal", "kind": "leopard", "severity": 2,
+    "title": "Leopard activity around McLeodganj and Dharamkot",
+    "description": "Leopards are regularly sighted at dawn and dusk on forest trails. Don't walk alone after dark, and keep pets leashed.",
+    "lat": 32.245, "lon": 76.33, "radius_m": 5000, "months": null,
+    "place_ids": ["triund", "indrahar-pass"],
+    "source": "curated", "source_note": "Team summary of commonly reported risks; not an official advisory."
+  },
+  {
+    "id": "hz-kareri-bear", "region_id": "himachal", "kind": "bear", "severity": 2,
+    "title": "Black bear habitat, Kareri valley",
+    "description": "Himalayan black bears forage in the oak forest, especially in autumn. Make noise on the trail and store food away from your tent.",
+    "lat": 32.31, "lon": 76.28, "radius_m": 5000, "months": [4, 5, 6, 9, 10, 11],
+    "place_ids": ["kareri-lake"],
+    "source": "curated", "source_note": "Team summary of commonly reported risks; not an official advisory."
+  },
+  {
+    "id": "hz-ghnp-bear", "region_id": "himachal", "kind": "bear", "severity": 2,
+    "title": "Bear country, GHNP buffer and Jalori forests",
+    "description": "Black bears live in the forests around Rolla and Serolsar. Walk in groups and avoid dusk on forest trails.",
+    "lat": 31.6, "lon": 77.4, "radius_m": 9000, "months": [4, 5, 6, 9, 10, 11],
+    "place_ids": ["tirthan-valley", "jibhi-serolsar"],
+    "source": "curated", "source_note": "Team summary of commonly reported risks; not an official advisory."
+  },
+  {
+    "id": "hz-mandi-snakes", "region_id": "himachal", "kind": "snake", "severity": 1,
+    "title": "Snakes on lower-valley trails in monsoon",
+    "description": "Snakes are active on warm, wet lower slopes. Wear closed shoes, use a torch at night and watch where you step.",
+    "lat": 31.75, "lon": 76.95, "radius_m": 20000, "months": [6, 7, 8, 9],
+    "place_ids": ["prashar-lake", "barot", "bir-billing"],
+    "source": "curated", "source_note": "Team summary of commonly reported risks; not an official advisory."
+  },
+  {
+    "id": "hz-triund-lightning", "region_id": "himachal", "kind": "lightning", "severity": 2,
+    "title": "Exposed ridge: Triund",
+    "description": "Afternoon thunderstorms are common in summer and monsoon. Leave the ridge as soon as you hear thunder.",
+    "lat": 32.2559, "lon": 76.3459, "radius_m": 1500, "months": [4, 5, 6, 7, 8, 9],
+    "place_ids": ["triund"],
+    "source": "curated", "source_note": "Team summary of commonly reported risks; not an official advisory."
+  },
+  {
+    "id": "hz-churdhar-lightning", "region_id": "himachal", "kind": "lightning", "severity": 3,
+    "title": "Churdhar summit lightning",
+    "description": "The isolated summit draws strikes. Summit early and be below the tree line by early afternoon.",
+    "lat": 30.873, "lon": 77.471, "radius_m": 2500, "months": [4, 5, 6, 7, 8, 9],
+    "place_ids": ["churdhar"],
+    "source": "curated", "source_note": "Team summary of commonly reported risks; not an official advisory."
+  },
+  {
+    "id": "hz-beas-kund-rockfall", "region_id": "himachal", "kind": "avalanche", "severity": 2,
+    "title": "Rockfall on the Beas Kund moraine",
+    "description": "Loose boulders on the moraine shift with snow-melt. Move in single file and don't rest under the slopes.",
+    "lat": 32.37, "lon": 77.08, "radius_m": 2000, "months": [6, 7, 8, 9, 10],
+    "place_ids": ["beas-kund"],
+    "source": "curated", "source_note": "Team summary of commonly reported risks; not an official advisory."
+  },
+  {
+    "id": "hz-indrahar-avalanche", "region_id": "himachal", "kind": "avalanche", "severity": 3,
+    "title": "Snow slopes below Indrahar Pass",
+    "description": "Late and early-season snow makes the gully avalanche-prone. Only cross with a guide who knows current conditions.",
+    "lat": 32.315, "lon": 76.373, "radius_m": 2500, "months": [3, 4, 5, 10, 11],
+    "place_ids": ["indrahar-pass"],
+    "source": "curated", "source_note": "Team summary of commonly reported risks; not an official advisory."
+  },
+  {
+    "id": "hz-high-altitude-spiti", "region_id": "himachal", "kind": "ams", "severity": 2,
+    "title": "High altitude: Kaza and the upper villages",
+    "description": "You'll be sleeping at about 3,800 m. Arrive gradually through Kinnaur and take a rest day before going higher.",
+    "lat": 32.2276, "lon": 78.071, "radius_m": 15000, "months": null,
+    "place_ids": ["spiti-valley", "pin-parvati-pass"],
+    "source": "curated", "source_note": "Based on Wilderness Medical Society altitude guidance."
+  }
+]

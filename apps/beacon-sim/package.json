@@ -1,0 +1,24 @@
+{
+  "name": "@offgrid/beacon-sim",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Simulates OFFGRID beacons, LoRa relay hops and an internet gateway, for demos without hardware",
+  "bin": {
+    "offgrid-beacon-sim": "src/cli.ts"
+  },
+  "scripts": {
+    "start": "tsx src/cli.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@offgrid/core": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0",
+    "vitest": "^3.2.0"
+  }
+}
